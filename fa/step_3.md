@@ -1,57 +1,55 @@
-## Using set_pixel
+## با استفاده از set_pixel
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+ابتدا، ما برخی از اعداد تصادفی را تصور میکنیم و از 123 | 6 | 0 | 32 | | set_pixel</code> تابع برای قرار دادن یک تصادفی رنگ در یک مکان تصادفی در صفحه نمایش حس حساس.
 
-1. If you're using a Raspberry Pi, open Python 3 and create a new file. If you're using the web emulator, delete the example code before you begin.
+1. اگر از Raspberry Pi استفاده می کنید، Python 3 را باز کنید و یک فایل جدید ایجاد کنید. اگر از شبیه سازی وب استفاده می کنید، قبل از شروع، کد نمونه را حذف کنید.
 
-2. In the new file, start by importing the Sense HAT module.
+2. در فایل جدید، با وارد کردن ماژول Sense HAT شروع کنید.
     
-    If you're using a real Sense HAT or the Trinket emulator, the import line is:
+    اگر شما با استفاده از HAT واقعی حس یا شبیه ساز نازک، خط واردات است:
     
     ```python
-from sense_hat import SenseHat
+از sense_hat واردات SenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+اگر از شبیه ساز دسکتاپ استفاده می کنید، خط واردات:
 
 ```python
-from sense_emu import SenseHat
+از sense_emu واردات SenseHat
 ```
 
-The rest of the code will be identical for all versions.
+بقیه کد برای همه نسخه ها یکسان خواهد بود.
 
-3. Next, create a connection to your Sense HAT by adding:
+3. بعد، اتصال به HAT Sense خود را با اضافه کردن:
     
     ```python
-sense = SenseHat()
+احساس = SenseHat ()
 ```
 
-4. Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+4. حالا از یک عدد تصادفی بین 0 و 7 فکر کنید و آن را به متغیر `x`اختصاص دهید، به عنوان مثال:
     
     ```python
 x = 4
 ```
 
-5. Think of another random number between 0 and 7, then assign it to `y`:
+5. فکر کنید یک عدد تصادفی دیگر بین 0 و 7، سپس آن را به 123 |
     
     ```python
 y = 5
 ```
 
-6. Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+6. از سه عدد تصادفی بین 0 و 255 فکر کنید و سپس آنها را به `r`، 123_6_2_321 | g</code>و `b`
     
     ```python
-r = 19
-g = 180
-b = 230
+r = 19 g = 180 b = 230
 ```
 
-7. Now use the `set_pixel` function to place your random colour at your random location on the display:
+7. حالا از `set_pixel` عملکرد به جای رنگ تصادفی خود را در محل تصادفی خود را بر روی صفحه نمایش:
     
     ```python
-sense.set_pixel(x, y, r, g, b)
+sense.set_pixel (x، y، r، g، b)
 ```
 
-8. Now run your code by pressing **F5** (or the **Run** button in Trinket). You should see a single pixel light up.
+8. حالا کد خود را با فشار دادن **F5** (یا **اجرای** در Trinket). شما باید نور یک پیکسل را ببینید.
 
-9. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+9. اکنون تعدادی اعداد تصادفی جدید را انتخاب کنید - همه آنها را تغییر دهید - و دوباره برنامه را اجرا کنید. پیکسل دوم باید روی صفحه نمایش ظاهر شود!
