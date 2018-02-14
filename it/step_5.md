@@ -1,28 +1,21 @@
-## Add a loop
+## Aggiungi un ciclo
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Piuttosto che dover continuare a eseguire il tuo programma, puoi aggiungere un ciclo in modo che continui a funzionare.
 
-1. First, add an `import` to the top of your file:
+1. Innanzitutto, aggiungi un `import` all'inizio del tuo file:
     
     ```python
-from time import sleep
+dal momento dell'importazione, dormi
 ```
 
-You'll use this to pause the program between pixels.
+Lo userai per mettere in pausa il programma tra i pixel.
 
-2. Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+2. Aggiungi un `mentre True:` al codice in modo che le righe casuali, `set_pixel` e `sonno` sono tutti all'interno del ciclo:
     
     ```python
-while True:
-    x = randint(0, 7)
-    y = randint(0, 7)
-    r = randint(0, 255)
-    g = randint(0, 255)
-    b = randint(0, 255)
-    sense.set_pixel(x, y, r, g, b)
-    sleep(0.1)
+while True: x = randint (0, 7) y = randint (0, 7) r = randint (0, 255) g = randint (0, 255) b = randint (0, 255) sense.set_pixel (x, y , r, g, b) sleep (0.1)
 ```
 
-3. Run the code and you should see random sparkles in action!
+3. Esegui il codice e dovresti vedere scintille casuali in azione!
 
-4. Try changing the sleep time to make it even shorter.
+4. Prova a cambiare il tempo di sonno per renderlo ancora più corto.
