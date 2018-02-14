@@ -1,32 +1,29 @@
-## Using the random module
+## De willekeurige module gebruiken
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Tot nu toe heb je je eigen willekeurige nummers gekozen, maar je kunt de computer in plaats daarvan laten kiezen.
 
-1. Add another `import` line at the top of your program, below `import SenseHat`:
+1. Voeg nog een `import` toe regel bovenaan je programma, onder `import SenseHat`:
     
     ```python
-from random import randint
+van willekeurige importrandint
 ```
 
-2. Now change your `x =` and `y =` lines to automatically select a random position:
+2. Verander nu je `x =` en `y =` lijnen om automatisch een willekeurige positie te selecteren:
     
     ```python
-x = randint(0, 7)
-y = randint(0, 7)
+x = randint (0, 7) y = randint (0, 7)
 ```
 
-3. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+3. Voer je programma opnieuw uit en je zou een andere willekeurige pixel op het scherm zien verschijnen. Het is dezelfde kleur die u eerder hebt gekozen.
 
-4. Now change your colour value lines to:
+4. Verander nu uw kleurwaardelijnen naar:
     
     ```python
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
+r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Nu selecteert uw programma automatisch een willekeurige kleur.
 
-5. Run it again, and you should see another pixel appear in a random location with a random colour.
+5. Voer het opnieuw uit en je zou een andere pixel op een willekeurige locatie met een willekeurige kleur moeten zien verschijnen.
 
-6. Run it a few more times, and you should see more of the grid fill up with random pixels.
+6. Voer het nog een paar keer uit, en je zou meer van het raster moeten zien vollopen met willekeurige pixels.
