@@ -1,24 +1,24 @@
 ---
-title: Sense HAT Random Sparkles
-hero_image: images/banner.png
-description: Make your Sense HAT shine with pride
-theme: red
+title: Случайно HAT случайни искри
+hero_image: изображения / banner.png
+description: Направете си чувство HAT блясък с гордост
+theme: червен
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
+curriculum: програмиране-0, phys-comp-0
 interests: ""
-technologies: "sense-hat, python"
+technologies: "смислена шапка, питон"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Въведение
   - 
-    title: What you will need
+    title: Какво ще ви трябва
   - 
-    title: Using set_pixel
+    title: Използвайки set_pixel
   - 
-    title: Using the random module
+    title: Използване на произволен модул
   - 
-    title: Add a loop
+    title: Добавете цикъл
