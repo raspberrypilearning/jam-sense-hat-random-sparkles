@@ -1,15 +1,15 @@
 ---
-title: Sense HAT Random Sparkles
-hero_image: images / banner.png
-description: Faites briller votre sens HAT avec fierté
+title: Sense HAT Scintillements aléatoires
+hero_image: images/banner.png
+description: Faites briller votre Sense HAT avec fierté
 theme: rouge
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmation-0, phys-comp-0
+curriculum: programming-0, phys-comp-0
 interests: ""
-technologies: "chapeau de sens, python"
+technologies: "sense-hat, python"
 site_areas: ""
 steps:
   - 
