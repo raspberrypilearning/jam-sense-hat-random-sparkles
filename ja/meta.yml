@@ -1,24 +1,24 @@
 ---
-title: Sense HAT Random Sparkles
-hero_image: images/banner.png
-description: Make your Sense HAT shine with pride
-theme: red
+title: センスHATランダムスパークル
+hero_image: images / banner.png
+description: あなたのセンスHATをプライドで輝かせる
+theme: 赤
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
+curriculum: プログラミング-0、phys-comp-0
 interests: ""
-technologies: "sense-hat, python"
+technologies: "センスハット、パイソン"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: 前書き
   - 
-    title: What you will need
+    title: あなたが必要とするもの
   - 
-    title: Using set_pixel
+    title: set_pixelの使用
   - 
-    title: Using the random module
+    title: ランダムモジュールの使用
   - 
-    title: Add a loop
+    title: ループを追加する
