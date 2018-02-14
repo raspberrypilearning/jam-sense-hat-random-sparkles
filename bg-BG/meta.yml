@@ -1,0 +1,24 @@
+---
+title: Случайно HAT случайни искри
+hero_image: изображения / banner.png
+description: Направете си чувство HAT блясък с гордост
+theme: червен
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: програмиране-0, phys-comp-0
+interests: ""
+technologies: "смислена шапка, питон"
+site_areas: ""
+steps:
+  - 
+    title: Въведение
+  - 
+    title: Какво ще ви трябва
+  - 
+    title: Използвайки set_pixel
+  - 
+    title: Използване на произволен модул
+  - 
+    title: Добавете цикъл
