@@ -1,8 +1,8 @@
-## Ce dont tu auras besoin
+## Ce dont vous aurez besoin
 
 ### Matériel
 
-- Tarte aux framboises
-- Sens HAT
+- Raspberry Pi
+- Sense HAT
 
 Alternativement, vous pouvez utiliser un émulateur Sense HAT sur un PC
