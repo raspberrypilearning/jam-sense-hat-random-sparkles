@@ -1,6 +1,6 @@
-## introduction
+## Introduction
 
-Faites briller votre sens HAT avec fierté
+Faites briller votre Sense HAT avec fierté
 
 ## Remarques
 
