@@ -1,10 +1,10 @@
-## Introduction
+## Bevezetés
 
-Make your Sense HAT shine with pride
+Tegye meg a Sense HAT büszkeségét
 
-## Notes
+## Megjegyzések
 
-For this activity, you can either use the real Sense HAT hardware, the desktop emulator in Raspbian, or the web-based emulator on Trinket.
+Ehhez a tevékenységhez használhatja a valódi Sense HAT hardvert, az asztali emulátort az Raspbian-ban vagy a Trinket webes emulátora.
 
-- If you're using the Sense HAT, attach it to your Raspberry Pi before booting.
-- If you're using the Trinket emulator, open a web browser and go to **trinket.io/sense-hat**
+- Ha a Sense HAT-et használja, csatlakoztassa a Raspberry Pi-hez a rendszerindítás előtt.
+- Ha használja a Trinket emulátort, nyissa meg a webböngészőt és menjen a **trinket.io/sense-hat**
