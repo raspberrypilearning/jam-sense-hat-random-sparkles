@@ -1,28 +1,21 @@
-## Add a loop
+## Добавете цикъл
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Вместо да продължите да пускате програмата си, можете да добавите цикъл, така че да продължи.
 
-1. First, add an `import` to the top of your file:
+1. Първо, добавете `импортиране` в началото на файла:
     
     ```python
-from time import sleep
+от време за внос сън
 ```
 
-You'll use this to pause the program between pixels.
+Ще използвате това, за да прекъснете програмата между пикселите.
 
-2. Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+2. Добавете `докато е вярно:` към вашия код, така че случайните линии, `set_pixel` и `сън` всички са в рамките на цикъла:
     
     ```python
-while True:
-    x = randint(0, 7)
-    y = randint(0, 7)
-    r = randint(0, 255)
-    g = randint(0, 255)
-    b = randint(0, 255)
-    sense.set_pixel(x, y, r, g, b)
-    sleep(0.1)
+(0, 255) g = randint (0, 255) b = randint (0, 255) sens.set_pixel (x, y) , r, g, b) сън (0.1)
 ```
 
-3. Run the code and you should see random sparkles in action!
+3. Изпълнете кода и трябва да видите случайни искри в действие!
 
-4. Try changing the sleep time to make it even shorter.
+4. Опитайте да промените времето за заспиване, за да го направите още по-кратко.
