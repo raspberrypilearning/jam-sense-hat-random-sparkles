@@ -13,12 +13,12 @@ technologies: "sense-hat, python"
 site_areas: ""
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
-    title: Ce dont tu auras besoin
+    title: Ce dont vous aurez besoin
   - 
     title: Utiliser set_pixel
   - 
-    title: En utilisant le module aléatoire
+    title: En utilisant le module aléatoire random
   - 
     title: Ajouter une boucle
