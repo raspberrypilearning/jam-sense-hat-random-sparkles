@@ -1,8 +1,8 @@
-## What you will need
+## Какво ще ви трябва
 
-### Hardware
+### железария
 
-- Raspberry Pi
+- Малина Пи
 - Sense HAT
 
-Alternatively, you can use a Sense HAT emultor on a PC
+Като алтернатива, можете да използвате Sense HAT emultor на компютър
