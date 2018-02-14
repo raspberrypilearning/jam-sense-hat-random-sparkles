@@ -1,28 +1,21 @@
-## Add a loop
+## ループを追加する
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+プログラムを継続して実行する必要はなく、ループを追加して継続することができます。
 
-1. First, add an `import` to the top of your file:
+1. まず、`import`を追加します。あなたのファイルの先頭に：
     
     ```python
-from time import sleep
+時間インポートからの睡眠
 ```
 
-You'll use this to pause the program between pixels.
+これを使用して、ピクセル間でプログラムを一時停止します。
 
-2. Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+2. `をTrueの間に追加：`あなたのコードには、ランダムな線、`set_pixel`と`スリープ`すべてがループ内にあります：
     
     ```python
-while True:
-    x = randint(0, 7)
-    y = randint(0, 7)
-    r = randint(0, 255)
-    g = randint(0, 255)
-    b = randint(0, 255)
-    sense.set_pixel(x, y, r, g, b)
-    sleep(0.1)
+true、x = randint（0、7）y = randint（0,7）r = randint（0,255）g = randint（0,255）b = randint（0,255）sense.set_pixel（x、y） 、r、g、b）スリープ（0.1）
 ```
 
-3. Run the code and you should see random sparkles in action!
+3. コードを実行すると、動作中のランダムな輝きが表示されます。
 
-4. Try changing the sleep time to make it even shorter.
+4. スリープ時間をさらに短くするように変更してみてください。
