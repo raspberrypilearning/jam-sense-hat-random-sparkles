@@ -1,32 +1,29 @@
-## Using the random module
+## En utilisant le module aléatoire
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Jusqu'à présent, vous avez choisi vos propres nombres aléatoires, mais vous pouvez laisser l'ordinateur les choisir à la place.
 
-1. Add another `import` line at the top of your program, below `import SenseHat`:
+1. Ajouter un autre `import` ligne en haut de votre programme, ci-dessous `import SenseHat`:
     
     ```python
-from random import randint
+à partir de rand import aléatoire
 ```
 
-2. Now change your `x =` and `y =` lines to automatically select a random position:
+2. Maintenant, changez votre `x =` et `y =` lignes pour sélectionner automatiquement une position aléatoire:
     
     ```python
-x = randint(0, 7)
-y = randint(0, 7)
+x = randint (0, 7) y = randint (0, 7)
 ```
 
-3. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+3. Exécutez votre programme à nouveau, et vous devriez voir un autre pixel aléatoire étant placé sur l'affichage. Ce sera la même couleur que vous avez choisi précédemment.
 
-4. Now change your colour value lines to:
+4. Maintenant, changez vos lignes de valeur de couleur à:
     
     ```python
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
+r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Maintenant, votre programme va automatiquement sélectionner une couleur aléatoire.
 
-5. Run it again, and you should see another pixel appear in a random location with a random colour.
+5. Exécutez-le à nouveau, et vous devriez voir un autre pixel apparaître dans un endroit aléatoire avec une couleur aléatoire.
 
-6. Run it a few more times, and you should see more of the grid fill up with random pixels.
+6. Exécutez-le quelques fois de plus, et vous devriez voir plus de la grille se remplir de pixels aléatoires.
