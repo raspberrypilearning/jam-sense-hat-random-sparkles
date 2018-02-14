@@ -1,28 +1,21 @@
-## Add a loop
+## Hurok hozzáadása
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Ahelyett, hogy folyamatosan futnod kell a programodat, hozzáadhatsz egy ciklust, hogy megmaradjon.
 
-1. First, add an `import` to the top of your file:
+1. Először, adj hozzá egy `import` a fájl tetejére:
     
     ```python
-from time import sleep
+az importálás időpontjától
 ```
 
-You'll use this to pause the program between pixels.
+Ezt a programot a képpontok közötti szüneteltetésre használja.
 
-2. Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+2. Add hozzá `while True:` hogy a véletlen sorok, `set_pixel` és `alvás` mind a hurokban vannak:
     
     ```python
-while True:
-    x = randint(0, 7)
-    y = randint(0, 7)
-    r = randint(0, 255)
-    g = randint(0, 255)
-    b = randint(0, 255)
-    sense.set_pixel(x, y, r, g, b)
-    sleep(0.1)
+míg a True: x = randint (0, 7) y = regiszter (0, 7) r = regiszter (0, 255) g = randint (0, 255) b = regiszter (0, 255) sense.set_pixel , r, g, b) alvás (0,1)
 ```
 
-3. Run the code and you should see random sparkles in action!
+3. Futtassa a kódot, és véletlenszerű csillogásokat kell látnia a cselekvésben!
 
-4. Try changing the sleep time to make it even shorter.
+4. Próbálja meg megváltoztatni az alvási időt, hogy még rövidebb legyen.
