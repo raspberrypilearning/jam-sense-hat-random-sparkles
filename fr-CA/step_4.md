@@ -1,29 +1,32 @@
-## En utilisant le module aléatoire
+## En utilisant le module aléatoire "random"
 
-Jusqu'à présent, vous avez choisi vos propres nombres aléatoires, mais vous pouvez laisser l'ordinateur les choisir à la place.
+Jusqu'à présent, vous avez choisi vos propres nombres aléatoires mais vous pouvez laisser l'ordinateur les choisir à votre place.
 
-1. Ajouter un autre `import` ligne en haut de votre programme, ci-dessous `import SenseHat`:
+1. Ajoutez une autre ligne `import` au haut de votre programme, sous `import SenseHat`:
     
     ```python
-à partir de rand import aléatoire
+from random import randint
 ```
 
-2. Maintenant, changez votre `x =` et `y =` lignes pour sélectionner automatiquement une position aléatoire:
+2. Maintenant, changez vos lignes `x=` et `y =` pour choisir une position aléatoire automatiquement:
     
     ```python
-x = randint (0, 7) y = randint (0, 7)
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-3. Exécutez votre programme à nouveau, et vous devriez voir un autre pixel aléatoire étant placé sur l'affichage. Ce sera la même couleur que vous avez choisi précédemment.
+3. Exécutez votre programme à nouveau et vous devriez voir un autre pixel aléatoire apparaître sur l'affichage. Il sera de la même couleur que vous avez choisie précédemment.
 
-4. Maintenant, changez vos lignes de valeur de couleur à:
+4. À présent, changez les lignes déterminant les valeurs de la couleur à:
     
     ```python
-r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
+r = randint(0, 255)
+v = randint(0, 255)
+b = randint(0, 255)
 ```
 
-Maintenant, votre programme va automatiquement sélectionner une couleur aléatoire.
+Votre programme choisira automatiquement une couleur aléatoire.
 
-5. Exécutez-le à nouveau, et vous devriez voir un autre pixel apparaître dans un endroit aléatoire avec une couleur aléatoire.
+5. Exécutez le à nouveau et vous devriez voir un autre pixel d'une couleur aléatoire apparaître à une position aléatoire.
 
 6. Exécutez-le quelques fois de plus, et vous devriez voir plus de la grille se remplir de pixels aléatoires.
