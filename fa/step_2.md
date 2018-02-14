@@ -1,8 +1,8 @@
-## What you will need
+## آنچه شما نیاز دارید
 
-### Hardware
+### سخت افزار
 
-- Raspberry Pi
-- Sense HAT
+- تمشک پی
+- حس شانس
 
-Alternatively, you can use a Sense HAT emultor on a PC
+در عوض، شما می توانید Sense HAT emultor را بر روی یک کامپیوتر استفاده کنید
