@@ -1,24 +1,24 @@
 ---
 title: Sense HAT Random Sparkles
-hero_image: images/banner.png
-description: Make your Sense HAT shine with pride
-theme: red
+hero_image: images / banner.png
+description: Fai splendere il tuo cappello di senso con orgoglio
+theme: rosso
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
+curriculum: programmazione-0, compatta-0
 interests: ""
-technologies: "sense-hat, python"
+technologies: "cappello sensoriale, pitone"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: introduzione
   - 
-    title: What you will need
+    title: Di cosa avrai bisogno
   - 
-    title: Using set_pixel
+    title: Utilizzando set_pixel
   - 
-    title: Using the random module
+    title: Usando il modulo casuale
   - 
-    title: Add a loop
+    title: Aggiungi un ciclo
