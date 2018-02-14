@@ -1,0 +1,24 @@
+---
+title: Sinn HAT Random Sparkles
+hero_image: Bilder / Banner.png
+description: Lassen Sie Ihren Sense HAT mit Stolz erstrahlen
+theme: rot
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: Programmierung-0, Phys-Comp-0
+interests: ""
+technologies: "Sinneshut, Python"
+site_areas: ""
+steps:
+  - 
+    title: Einführung
+  - 
+    title: Was wirst du brauchen
+  - 
+    title: Verwenden von set_pixel
+  - 
+    title: Verwenden des Zufallsmoduls
+  - 
+    title: Fügen Sie eine Schleife hinzu

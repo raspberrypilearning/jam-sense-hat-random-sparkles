@@ -1,0 +1,24 @@
+---
+title: Sense HAT Random Sparkles
+hero_image: images / banner.png
+description: Fai splendere il tuo cappello di senso con orgoglio
+theme: rosso
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programmazione-0, compatta-0
+interests: ""
+technologies: "cappello sensoriale, pitone"
+site_areas: ""
+steps:
+  - 
+    title: introduzione
+  - 
+    title: Di cosa avrai bisogno
+  - 
+    title: Utilizzando set_pixel
+  - 
+    title: Usando il modulo casuale
+  - 
+    title: Aggiungi un ciclo
