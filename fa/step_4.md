@@ -1,32 +1,29 @@
-## Using the random module
+## با استفاده از ماژول تصادفی
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+تا کنون شما اعداد تصادفی خود را انتخاب کرده اید، اما می توانید به آنها اجازه دهید رایانه را انتخاب کنند.
 
-1. Add another `import` line at the top of your program, below `import SenseHat`:
+1. افزودن دیگری `import` خط در بالای برنامه خود، زیر `import SenseHat`:
     
     ```python
-from random import randint
+از تصادفی واردات randint
 ```
 
-2. Now change your `x =` and `y =` lines to automatically select a random position:
+2. در حال حاضر شما `x =` را تغییر دهید و `y =` خطوط به طور خودکار موقعیت تصادفی را انتخاب کنید:
     
     ```python
-x = randint(0, 7)
-y = randint(0, 7)
+x = randint (0، 7) y = randint (0، 7)
 ```
 
-3. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+3. دوباره برنامه خود را اجرا کنید، و باید یک پیکسل تصادفی دیگر روی صفحه نمایش قرار دهید. این همان رنگی است که قبلا انتخاب کرده اید.
 
-4. Now change your colour value lines to:
+4. حالا خطوط رنگی خود را به:
     
     ```python
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
+r = randint (0، 255) g = randint (0، 255) b = randint (0، 255)
 ```
 
-Now your program will automatically select a random colour.
+اکنون برنامه شما به طور خودکار رنگ تصادفی را انتخاب می کند.
 
-5. Run it again, and you should see another pixel appear in a random location with a random colour.
+5. دوباره آن را اجرا کنید و باید یک پیکسل دیگر در یک مکان تصادفی با یک رنگ تصادفی ظاهر شود.
 
-6. Run it a few more times, and you should see more of the grid fill up with random pixels.
+6. چند بار دیگر آن را اجرا کنید و باید بیشتر از شبکه را با پیکسل های تصادفی پر کنید.
