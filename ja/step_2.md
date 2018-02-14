@@ -1,8 +1,8 @@
-## What you will need
+## あなたが必要とするもの
 
-### Hardware
+### ハードウェア
 
-- Raspberry Pi
-- Sense HAT
+- ラズベリーパイ
+- センスHAT
 
-Alternatively, you can use a Sense HAT emultor on a PC
+あるいは、PC上でSense HATエミュレータを使用することもできます
