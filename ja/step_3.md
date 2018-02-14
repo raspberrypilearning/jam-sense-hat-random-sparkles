@@ -1,57 +1,55 @@
-## Using set_pixel
+## set_pixelの使用
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+まず、いくつかの乱数を考え、`set_pixel`を使用します。 Sense HATディスプレイの任意の場所にランダムな色を配置する機能。
 
-1. If you're using a Raspberry Pi, open Python 3 and create a new file. If you're using the web emulator, delete the example code before you begin.
+1. Raspberry Piを使用している場合は、Python 3を開いて新しいファイルを作成します。 Webエミュレータを使用している場合は、開始する前にサンプルコードを削除してください。
 
-2. In the new file, start by importing the Sense HAT module.
+2. 新しいファイルで、まずSense HATモジュールをインポートします。
     
-    If you're using a real Sense HAT or the Trinket emulator, the import line is:
+    あなたが本当のセンスHATまたはTrinketエミュレータを使用している場合、インポート行は次のようになります。
     
     ```python
-from sense_hat import SenseHat
+sense_hatからのインポートSenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+デスクトップエミュレータを使用している場合、インポート行は次のようになります。
 
 ```python
-from sense_emu import SenseHat
+sense_emuからのインポートSenseHat
 ```
 
-The rest of the code will be identical for all versions.
+コードの残りの部分は、すべてのバージョンで同じになります。
 
-3. Next, create a connection to your Sense HAT by adding:
+3. 次に、Sense HATへの接続を作成します。
     
     ```python
-sense = SenseHat()
+sense = SenseHat（）
 ```
 
-4. Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+4. 今度は0と7の間の乱数を考え、それを変数`x`に代入します：
     
     ```python
 x = 4
 ```
 
-5. Think of another random number between 0 and 7, then assign it to `y`:
+5. 0と7の間の別の乱数を考え、それを`y`に割り当てます：
     
     ```python
 y = 5
 ```
 
-6. Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+6. 0〜255の3つの乱数を考え、`r`、`g`、`b`を割り当てます。
     
     ```python
-r = 19
-g = 180
-b = 230
+r = 19g = 180b = 230
 ```
 
-7. Now use the `set_pixel` function to place your random colour at your random location on the display:
+7. 今すぐ`set_pixel`を使用してください。あなたのランダムな色をディスプレイ上の任意の場所に配置する機能：
     
     ```python
-sense.set_pixel(x, y, r, g, b)
+sense.set_pixel（x、y、r、g、b）
 ```
 
-8. Now run your code by pressing **F5** (or the **Run** button in Trinket). You should see a single pixel light up.
+8. **F5**を押してコードを実行してください。 （またはTrinketの**Run**ボタン）をクリックします。 1つのピクセルが点灯するはずです。
 
-9. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+9. 今度はいくつかの新しい乱数を選択し、それらをすべて変更して、プログラムをもう一度実行してください。 2番目のピクセルがディスプレイに表示されます。
