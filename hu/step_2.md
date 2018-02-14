@@ -1,8 +1,8 @@
-## What you will need
+## Amire szükséged lesz
 
-### Hardware
+### Hardver
 
 - Raspberry Pi
 - Sense HAT
 
-Alternatively, you can use a Sense HAT emultor on a PC
+Alternatív megoldásként egy Sense HAT emultort is használhat a számítógépen
