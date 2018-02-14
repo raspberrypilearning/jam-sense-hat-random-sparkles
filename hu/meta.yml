@@ -1,24 +1,24 @@
 ---
-title: Sense HAT Random Sparkles
-hero_image: images/banner.png
-description: Make your Sense HAT shine with pride
-theme: red
+title: Sense HAT Véletlenszerű Sparkles
+hero_image: images / banner.png
+description: Tegye meg a Sense HAT büszkeségét
+theme: piros
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
+curriculum: programozás-0, fizikai-comp-0
 interests: ""
-technologies: "sense-hat, python"
+technologies: "sense-kalap, python"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: What you will need
+    title: Amire szükséged lesz
   - 
-    title: Using set_pixel
+    title: A set_pixel használata
   - 
-    title: Using the random module
+    title: Véletlenszerű modul használata
   - 
-    title: Add a loop
+    title: Hurok hozzáadása
