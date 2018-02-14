@@ -1,57 +1,55 @@
-## Using set_pixel
+## Utilizzando set_pixel
 
-First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Per prima cosa, penseremo a numeri casuali e useremo il `set_pixel` funzione per posizionare un colore casuale in una posizione casuale sul display HAT Senso.
 
-1. If you're using a Raspberry Pi, open Python 3 and create a new file. If you're using the web emulator, delete the example code before you begin.
+1. Se stai usando un Raspberry Pi, apri Python 3 e crea un nuovo file. Se stai utilizzando l'emulatore Web, elimina il codice di esempio prima di iniziare.
 
-2. In the new file, start by importing the Sense HAT module.
+2. Nel nuovo file, iniziare importando il modulo Sense HAT.
     
-    If you're using a real Sense HAT or the Trinket emulator, the import line is:
+    Se stai usando un vero HAT Sense o l'emulatore Trinket, la linea di importazione è:
     
     ```python
-from sense_hat import SenseHat
+da sense_hat importa SenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+Se stai usando l'emulatore desktop, la linea di importazione è:
 
 ```python
-from sense_emu import SenseHat
+da sense_emu import SenseHat
 ```
 
-The rest of the code will be identical for all versions.
+Il resto del codice sarà identico per tutte le versioni.
 
-3. Next, create a connection to your Sense HAT by adding:
+3. Quindi, crea una connessione al tuo HAT Sense aggiungendo:
     
     ```python
-sense = SenseHat()
+sense = SenseHat ()
 ```
 
-4. Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+4. Ora pensa a un numero casuale compreso tra 0 e 7 e assegnalo alla variabile `x`, ad esempio:
     
     ```python
 x = 4
 ```
 
-5. Think of another random number between 0 and 7, then assign it to `y`:
+5. Pensa a un altro numero casuale tra 0 e 7, quindi assegnalo a `y`:
     
     ```python
 y = 5
 ```
 
-6. Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+6. Pensa a tre numeri casuali compresi tra 0 e 255, quindi assegnali a `r`, `g`, e `b`:
     
     ```python
-r = 19
-g = 180
-b = 230
+r = 19 g = 180 b = 230
 ```
 
-7. Now use the `set_pixel` function to place your random colour at your random location on the display:
+7. Ora usa `set_pixel` funzione per posizionare il colore casuale nella posizione casuale sul display:
     
     ```python
-sense.set_pixel(x, y, r, g, b)
+sense.set_pixel (x, y, r, g, b)
 ```
 
-8. Now run your code by pressing **F5** (or the **Run** button in Trinket). You should see a single pixel light up.
+8. Ora esegui il tuo codice premendo **F5** (o il pulsante **Esegui** in Trinket). Dovresti vedere un singolo pixel acceso.
 
-9. Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+9. Ora scegli alcuni nuovi numeri casuali - cambiali tutti - ed esegui di nuovo il programma. Un secondo pixel dovrebbe apparire sul display!
