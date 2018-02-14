@@ -1,0 +1,24 @@
+---
+title: Sense HAT Random Sparkles
+hero_image: images / banner.png
+description: Laat je Sense HAT stralen met trots
+theme: rood
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: ""
+technologies: "zintuigen, python"
+site_areas: ""
+steps:
+  - 
+    title: Invoering
+  - 
+    title: Wat je nodig zult hebben
+  - 
+    title: Met behulp van set_pixel
+  - 
+    title: De willekeurige module gebruiken
+  - 
+    title: Voeg een lus toe
