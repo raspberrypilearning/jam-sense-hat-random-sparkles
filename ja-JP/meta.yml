@@ -1,0 +1,24 @@
+---
+title: センスHATランダムスパークル
+hero_image: images / banner.png
+description: あなたのセンスHATをプライドで輝かせる
+theme: 赤
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: プログラミング-0、phys-comp-0
+interests: ""
+technologies: "センスハット、パイソン"
+site_areas: ""
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: set_pixelの使用
+  - 
+    title: ランダムモジュールの使用
+  - 
+    title: ループを追加する
