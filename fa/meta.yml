@@ -1,24 +1,24 @@
 ---
-title: Sense HAT Random Sparkles
-hero_image: images/banner.png
-description: Make your Sense HAT shine with pride
-theme: red
+title: حس گرگ های تصادفی HAT
+hero_image: images / banner.png
+description: احساس افتخار خود را با افتخار ببخشید
+theme: سرخ
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
+curriculum: programming-0، phys-comp-0
 interests: ""
-technologies: "sense-hat, python"
+technologies: "معنی کلاه، پایتون"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: معرفی
   - 
-    title: What you will need
+    title: آنچه شما نیاز دارید
   - 
-    title: Using set_pixel
+    title: با استفاده از set_pixel
   - 
-    title: Using the random module
+    title: با استفاده از ماژول تصادفی
   - 
-    title: Add a loop
+    title: یک حلقه اضافه کنید
