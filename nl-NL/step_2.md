@@ -1,8 +1,8 @@
-## Wat je nodig zult hebben
+## Wat heb je nodig
 
 ### Hardware
 
 - Raspberry Pi
 - Sense HAT
 
-Als alternatief kunt u een Sense HAT-emultor op een pc gebruiken
+Als alternatief kunt je een Sense HAT-emultor op een pc gebruiken
