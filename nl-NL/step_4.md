@@ -17,7 +17,7 @@ y = randint (0, 7)
 
 3. Voer je programma opnieuw uit en er zal een andere willekeurige pixel op het scherm oplichten. Het is dezelfde kleur die je eerder hebt gekozen.
 
-4. Verander nu je kleur waarde regel naar:
+4. Verander nu de code waar je de kleurwaarde toekent naar:
     
     ```python
 r = randint (0, 255)
