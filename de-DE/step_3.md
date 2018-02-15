@@ -26,30 +26,32 @@ Der Rest des Codes ist für alle Versionen identisch.
 sensoren = SenseHat()
 ```
 
-4. Denken Sie nun an eine Zufallszahl zwischen 0 und 7 und weisen Sie diese der Variablen `x`zu, zum Beispiel:
+4. Denke nun an eine Zufallszahl zwischen 0 und 7 und weise diese der Variablen `x` zu, zum Beispiel:
     
     ```python
 x = 4
 ```
 
-5. Denken Sie an eine andere Zufallszahl zwischen 0 und 7 und weisen Sie sie dann `y`zu:
+5. Denke an eine andere Zufallszahl zwischen 0 und 7 und weise sie dann `y`zu:
     
     ```python
 y = 5
 ```
 
-6. Stellen Sie sich drei Zufallszahlen zwischen 0 und 255 vor und weisen Sie sie dann `r`, `g`und `b`:
+6. Denke dir drei Zufallszahlen zwischen 0 und 255 aus und weise sie dann `r`, `g`und `b` zu:
     
     ```python
-r = 19 g = 180 b = 230
+r = 19
+g = 180
+b = 230
 ```
 
-7. Verwenden Sie nun die `set_pixel` Funktion, um Ihre zufällige Farbe an Ihrem zufälligen Ort auf dem Display zu platzieren:
+7. Verwende nun die `set_pixel` Funktion, um deine zufällige Farbe an deinem zufälligen Ort auf dem Display zu platzieren:
     
     ```python
-sense.set_pixel (x, y, r, g, b)
+sensoren.set_pixel (x, y, r, g, b)
 ```
 
-8. Führen Sie nun Ihren Code aus, indem Sie **F5** (oder die **Run** Schaltfläche in Trinket). Sie sollten ein einzelnes Pixel aufleuchten sehen.
+8. Führe nun deinen Code aus, indem du **F5** (oder die **Run** Schaltfläche in Trinket) drückst. Du solltest ein einzelnes Pixel aufleuchten sehen.
 
-9. Wählen Sie nun einige neue Zufallszahlen - ändern Sie sie alle - und führen Sie das Programm erneut aus. Ein zweites Pixel sollte auf dem Display erscheinen!
+9. Wähle nun einige neue Zufallszahlen - ändere sie alle - und führe das Programm erneut aus. Ein anderes Pixel sollte auf dem Display erscheinen!
