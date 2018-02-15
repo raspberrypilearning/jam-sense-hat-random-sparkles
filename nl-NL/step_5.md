@@ -1,21 +1,27 @@
 ## Voeg een lus toe
 
-In plaats van dat u uw programma blijft uitvoeren, kunt u een lus toevoegen zodat deze door kan gaan.
+In plaats van dat je jouw programma blijft uitvoeren, kunt je een lus toevoegen zodat deze continue doorlopen wordt.
 
-1. Voeg eerst een `import` toe naar de top van uw bestand:
+1. Voeg eerst een `import` toe naar de top van je bestand:
     
     ```python
-van tijd importeren slaap
+from time import sleep
 ```
 
-U gebruikt dit om het programma tussen de pixels te pauzeren.
+Je gebruikt dit om het programma tussen de pixels door te pauzeren.
 
-2. Voeg een `while True toe:` naar uw code, zodat de willekeurige regels, `set_pixel` en `slaap` zijn allemaal binnen de lus:
+2. Voeg een `while True:` toe aan je code, zodat de willekeurige regels, `set_pixel` en `slaap` zich allemaal binnen de lus bevinden:
     
     ```python
-while True: x = randint (0, 7) y = randint (0, 7) r = randint (0, 255) g = randint (0, 255) b = randint (0, 255) sense.set_pixel (x, y , r, g, b) slaap (0,1)
+x = randint(0, 7)
+y = randint(0, 7)
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
+sense.set_pixel(x, y, r, g, b)
+sleep(0.1)
 ```
 
-3. Voer de code uit en je zou willekeurige sparkles in actie moeten zien!
+3. Voer de code uit en je zou willekeurige flikkeringen moeten zien!
 
 4. Probeer de slaaptijd te veranderen om deze nog korter te maken.
