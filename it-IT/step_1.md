@@ -1,10 +1,10 @@
-## introduzione
+## Introduzione
 
-Fai splendere il tuo cappello di senso con orgoglio
+Fai splendere il Sense Hat con orgoglio
 
-## Gli appunti
+## Appunti
 
-Per questa attività, è possibile utilizzare il vero hardware HAT Sense, l'emulatore desktop di Raspbian o l'emulatore basato su Web su Trinket.
+Per questa attività è possibile utilizzare il Sense HAT vero e proprio, l'emulatore desktop su Raspbian oppure l'emulatore web su Trinket.
 
-- Se stai usando il SENS HAT, collegalo al tuo Raspberry Pi prima di avviarlo.
+- Se stai usando il Sense HAT, collegalo al Raspberry Pi prima di avviarlo.
 - Se stai usando l'emulatore Trinket, apri un browser web e vai a **trinket.io/sense-hat**
