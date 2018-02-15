@@ -1,6 +1,6 @@
-## Einführung
+## Einleitung
 
-Lassen Sie Ihren Sense HAT mit Stolz erstrahlen
+Lasse deinen Sense HAT mit Stolz erstrahlen
 
 ## Anmerkungen
 
