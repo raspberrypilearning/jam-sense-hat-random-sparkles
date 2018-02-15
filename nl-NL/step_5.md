@@ -1,8 +1,8 @@
 ## Voeg een lus toe
 
-In plaats van dat je jouw programma blijft uitvoeren, kunt je een lus toevoegen zodat deze continue doorlopen wordt.
+In plaats van je programma zelf te blijven uitvoeren, kan je een lus toevoegen zodat het automatisch blijft lopen.
 
-1. Voeg eerst een `import` toe naar de top van je bestand:
+1. Voeg eerst een `import` toe bovenaan je bestand:
     
     ```python
 from time import sleep
