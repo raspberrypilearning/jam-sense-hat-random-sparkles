@@ -1,8 +1,8 @@
-## Di cosa avrai bisogno
+## Cosa ti serve
 
 ### Hardware
 
 - Raspberry Pi
-- CAPPELLO SENS
+- Sense HAT
 
-In alternativa, puoi usare un emulatore di HAT Sense su un PC
+In alternativa, puoi usare un emulatore del Sense HAT sul PC
