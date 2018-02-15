@@ -1,11 +1,11 @@
-## Fügen Sie eine Schleife hinzu
+## Füge eine Schleife hinzu
 
-Anstatt Ihr Programm weiterlaufen zu lassen, können Sie eine Schleife hinzufügen, damit es weiterläuft.
+Anstatt dein Programm immer wieder laufen zu lassen, kannst du eine Schleife hinzufügen, damit es automatisch weiterläuft.
 
-1. Fügen Sie zunächst ein `import` hinzu an den Anfang Ihrer Datei:
+1. Füge zunächst ein `import` am Anfang deiner Datei hinzu:
     
     ```python
-Von Zeit zu Zeit schlafen
+from time import sleep
 ```
 
 Sie verwenden dies, um das Programm zwischen den Pixeln anzuhalten.
