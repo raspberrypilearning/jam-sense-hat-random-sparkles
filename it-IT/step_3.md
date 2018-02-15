@@ -1,6 +1,6 @@
 ## Utilizzando set_pixel
 
-Per prima cosa, penseremo a numeri casuali e useremo il `set_pixel` funzione per posizionare un colore casuale in una posizione casuale sul display HAT Senso.
+Per prima cosa, pensaimo a dei numeri a caso e usiamo la funzione `set_pixel` per accendere un colore a caso in una posizione casuale sul display del Sense HAT.
 
 1. Se stai usando un Raspberry Pi, apri Python 3 e crea un nuovo file. Se stai utilizzando l'emulatore Web, elimina il codice di esempio prima di iniziare.
 
