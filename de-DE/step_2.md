@@ -1,8 +1,8 @@
-## Was wirst du brauchen
+## Was du brauchen wirst
 
 ### Hardware
 
 - Raspberry Pi
-- Sinn HUT
+- Sense HAT
 
-Alternativ können Sie einen Sense HAT Emulator auf einem PC verwenden
+Alternativ kannst du einen Sense HAT Emulator auf einem PC verwenden
