@@ -1,4 +1,4 @@
-## En utilisant le module aléatoire
+## Utiliser le module aléatoire
 
 Jusqu'à présent, vous avez choisi vos propres nombres aléatoires, mais vous pouvez laisser l'ordinateur les choisir à la place.
 
