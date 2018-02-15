@@ -25,4 +25,4 @@ while True:
 
 3. Eseguendo il codice dovresti vedere in azione uno scintillio casuale!
 
-4. Prova a cambiare il tempo di sonno per renderlo ancora più corto.
+4. Prova a cambiare il tempo di nella funzione sleep, in modo da accorciare la pausa fra un'accensione e l'altra.
