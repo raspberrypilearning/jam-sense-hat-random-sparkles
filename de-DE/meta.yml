@@ -1,15 +1,15 @@
 ---
 title: Zufälliges Funkeln mit Sense HAT
-hero_image: Bilder/Banner.png
+hero_image: images/banner.png
 description: Lassen Sie Ihren Sense HAT mit Stolz erstrahlen
-theme: rot
+theme: red
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
 curriculum: programming-0, phys-comp-0
 interests: ""
-technologies: "sense-HAT, Python"
+technologies: "sense-hat, python"
 site_areas: ""
 steps:
   - 
