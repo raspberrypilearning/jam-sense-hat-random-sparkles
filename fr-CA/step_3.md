@@ -2,7 +2,7 @@
 
 D'abord, nous allons penser à des nombres aléatoires et utiliser la fonction `set_pixel` pour afficher une couleur aléatoire à un emplacement aléatoire sur l'écran du Sense HAT.
 
-1. Si vous utilisez une Raspberry Pi, ouvrez Python 3 et créez un nouveau fichier. Si vous utilisez l'émulateur web, effacez le code de démonstration avant de débuter.
+1. Si vous utilisez une Raspberry Pi, lancez Python 3 à partir du menu principal et créez un nouveau fichier. Si vous utilisez l'émulateur web, effacez le code de démonstration avant de débuter.
 
 2. Dans le nouveau fichier, commencez par importer le module Sense HAT.
     
