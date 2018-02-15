@@ -6,13 +6,13 @@ D'abord, nous allons penser à des nombres aléatoires et utiliser le fonction `
 
 2. Dans le nouveau fichier, commencez par importer le module Sense HAT.
     
-    Si vous utilisez un vrai Sense HAT ou l'émulateur Trinket, la ligne d'importation est:
+    Si vous utilisez un vrai Sense HAT ou l'émulateur Trinket, la ligne d'import est:
     
     ```python
 from sense_hat import SenseHat
 ```
 
-Si vous utilisez l'émulateur de bureau, la ligne d'importation est:
+Si vous utilisez l'émulateur de bureau, la ligne d'import est:
 
 ```python
 from sense_emu import SenseHat
