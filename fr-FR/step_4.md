@@ -2,7 +2,7 @@
 
 Jusqu'à présent, vous avez choisi vos propres nombres aléatoires, mais vous pouvez laisser l'ordinateur les choisir à la place.
 
-1. Ajouter un autre `import` ligne en haut de votre programme, ci-dessous `import SenseHat`:
+1. Ajouter un autre ligne d'`import` en haut de votre programme, ci-dessous `import SenseHat`:
     
     ```python
 à partir de rand import aléatoire
