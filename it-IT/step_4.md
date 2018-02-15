@@ -27,6 +27,6 @@ b = randint (0, 255)
 
 Ora il programma selezionerà automaticamente un colore a caso.
 
-5. Eseguilo nuovamente e dovresti vedere un altro pixel apparire in una posizione casuale con un colore casuale.
+5. Eseguilo nuovamente e dovresti vedere un altro pixel apparire in una posizione a caso e con un colore casuale.
 
-6. Eseguilo un paio di volte e dovresti vedere più della griglia riempire con pixel casuali.
+6. Eseguilo un altro paio di volte e dovresti vedere la griglia riempirsi di pixel disposti a caso e con colori casuali.
