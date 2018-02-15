@@ -7,18 +7,18 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmeren-0, computeren-0
+curriculum: programming-0, phys-comp-0
 interests: ""
 technologies: "sense-hat, python"
 site_areas: ""
 steps:
   - 
-    title: Introductie
+    title: Inleiding
   - 
     title: Wat heb je nodig
   - 
     title: Het gebruik van set_pixel
   - 
-    title: De module random gebruiken
+    title: De random module gebruiken
   - 
     title: Voeg een lus toe
