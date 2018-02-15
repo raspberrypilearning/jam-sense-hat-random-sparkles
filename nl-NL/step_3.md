@@ -46,12 +46,12 @@ g = 180
 b = 230
 ```
 
-7. Gebruik nu de `set_pixel` functie om uw willekeurige kleur op uw willekeurige locatie op het display te plaatsen:
+7. Gebruik nu de `set_pixel` functie om de gekozen willekeurige kleur op de willekeurige locatie op het display te plaatsen:
     
     ```python
 sense.set_pixel (x, y, r, g, b)
 ```
 
-8. Voer nu je code uit door op **F5** te drukken (of de **Run** knop in Trinket). Je zou een enkele pixel moeten zien oplichten.
+8. Voer nu je code uit door op **F5** te drukken (of de **Run** knop in Trinket). Je zou één enkele pixel moeten zien oplichten.
 
 9. Kies nu een aantal nieuwe willekeurige nummers - verander ze allemaal - en voer het programma opnieuw uit. Een tweede pixel zou op het display moeten verschijnen!
