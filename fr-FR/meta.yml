@@ -1,8 +1,8 @@
 ---
 title: Sense HAT Random Sparkles
 hero_image: images/banner.png
-description: Faites briller votre sens HAT avec fierté
-theme: rouge
+description: Faites briller votre Sense HAT avec fierté
+theme: red
 duration: 2
 listed: false
 ingredient: false
@@ -13,7 +13,7 @@ technologies: "sense-hat, python"
 site_areas: ""
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
     title: Ce dont tu auras besoin
   - 
