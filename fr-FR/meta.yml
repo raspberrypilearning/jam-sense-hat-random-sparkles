@@ -15,10 +15,10 @@ steps:
   - 
     title: Introduction
   - 
-    title: Ce dont tu auras besoin
+    title: Ce dont vous aurez besoin
   - 
     title: Utiliser set_pixel
   - 
-    title: En utilisant le module aléatoire
+    title: Utiliser le module aléatoire
   - 
     title: Ajouter une boucle
