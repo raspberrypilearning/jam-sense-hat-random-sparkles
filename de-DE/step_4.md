@@ -2,28 +2,31 @@
 
 Bis jetzt habest du deine eigenen Zufallszahlen gewählt, aber du kannst den Computer stattdessen wählen lassen.
 
-1. Fügen Sie ein weiteres `import` hinzu Zeile an der Spitze deines Programms, unten `import SenseHat`:
+1. Füge eine weitere `import` Zeile am Anfang deines Programms hinzu, unter `import SenseHat`:
     
     ```python
-aus dem Zufalls-Import randint
+from random import randint
 ```
 
-2. Ändern Sie nun Ihre `x =` und `y =` Zeilen, um automatisch eine zufällige Position auszuwählen:
+2. Ändere nun deine `x =` und `y =` Zeilen, um automatisch eine zufällige Position auszuwählen:
     
     ```python
-x = randint (0, 7) y = randint (0, 7)
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-3. Führen Sie Ihr Programm erneut aus, und Sie sollten ein anderes beliebiges Pixel sehen, das auf dem Display platziert wird. Es wird die gleiche Farbe sein, die Sie zuvor gewählt haben.
+3. Führe dein Programm erneut aus, und du solltest ein anderes beliebiges Pixel sehen, das auf dem Display platziert wird. Es wird die gleiche Farbe sein, die du zuvor gewählt hast.
 
-4. Ändern Sie nun Ihre Farbwertzeilen in:
+4. Ändere nun deine Farbwertzeilen in:
     
     ```python
-r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 ```
 
-Jetzt wählt Ihr Programm automatisch eine zufällige Farbe.
+Jetzt wählt dein Programm automatisch eine zufällige Farbe.
 
-5. Führen Sie es erneut aus, und Sie sollten ein anderes Pixel an einem zufälligen Speicherort mit einer zufälligen Farbe angezeigt werden.
+5. Führe es erneut aus, und du solltest ein Pixel an einem anderen, zufälligen Ort mit einer zufälligen Farbe angezeigt bekommen.
 
-6. Führen Sie es noch ein paar Mal aus, und Sie sollten sehen, dass mehr Gitter mit zufälligen Pixeln gefüllt sind.
+6. Führe es noch ein paar Mal aus, und du solltest sehen, dass sich das Display mit zufälligen Pixeln füllt.
