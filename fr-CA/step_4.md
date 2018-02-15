@@ -29,4 +29,4 @@ Votre programme choisira automatiquement une couleur aléatoire.
 
 5. Exécutez le à nouveau et vous devriez voir un autre pixel d'une couleur aléatoire apparaître à une position aléatoire.
 
-6. Exécutez-le quelques fois de plus, et vous devriez voir plus de la grille se remplir de pixels aléatoires.
+6. Exécutez le quelques fois de plus et vous devriez voir l'affichage se remplir progressivement de pixels aléatoires.
