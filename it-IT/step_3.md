@@ -54,4 +54,4 @@ sense.set_pixel(x, y, r, g, b)
 
 8. Ora esegui il codice premendo **F5** (o il pulsante **Esegui** se usi Trinket). Dovresti vedere un singolo pixel acceso.
 
-9. Ora scegli alcuni nuovi numeri casuali - cambiali tutti - ed esegui di nuovo il programma. Un secondo pixel dovrebbe apparire sul display!
+9. Ora scegli altri numeri a caso - tutti diversi dai precedenti - ed esegui di nuovo il programma. Sul display dovrebbe apparire un secondo pixel!
