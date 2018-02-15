@@ -1,6 +1,6 @@
 ## Het gebruik van set_pixel
 
-Eerst zullen we wat willekeurige getallen bedenken en de `set_pixel` functie gebruiken om een ​​willekeurige kleur op een willekeurige locatie op de Sense HAT op te laten lichten.
+Eerst zullen we wat willekeurige getallen bedenken en de `set_pixel` functie gebruiken om een ​​willekeurige kleur op een willekeurige locatie op de Sense HAT display te laten oplichten.
 
 1. Als je een Raspberry Pi gebruikt, open dan Python 3 en maak een nieuw bestand aan. Als je de webemulator gebruikt, verwijder voordat je begint de voorbeeldcode.
 
