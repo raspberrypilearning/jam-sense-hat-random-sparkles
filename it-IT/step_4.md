@@ -1,22 +1,23 @@
-## Usando il modulo casuale
+## Uso del modulo random
 
-Finora hai scelto i tuoi numeri casuali, ma puoi lasciare che siano i computer a sceglierli.
+Finora hai scelto tu i numeri, ma puoi fare in modo che sia il computer a sceglierli.
 
-1. Aggiungi un altro `import` riga nella parte superiore del tuo programma, sotto `import SenseHat`:
+1. Aggiungi un'altra riga di `import` nella parte superiore del programma, subito sotto alla riga `import SenseHat`:
     
     ```python
-da randint di importazione casuale
+from random import randint
 ```
 
-2. Ora modifica il tuo `x =` e `y =` linee per selezionare automaticamente una posizione casuale:
+2. Ora modifica le righe `x =` e `y =` in modo da selezionare automaticamente una posizione:
     
     ```python
-x = randint (0, 7) y = randint (0, 7)
+x = randint(0, 7) 
+y = randint(0, 7)
 ```
 
-3. Esegui nuovamente il programma e dovresti vedere un altro pixel casuale posizionato sul display. Sarà lo stesso colore che hai scelto in precedenza.
+3. Esegui nuovamente il programma e dovresti vedere un altro pixel posizionato a caso sul display. Sarà dello stesso colore che hai scelto in precedenza.
 
-4. Ora modifica le linee dei valori del colore in:
+4. Ora modifica le righe relative ai valori del colore:
     
     ```python
 r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
