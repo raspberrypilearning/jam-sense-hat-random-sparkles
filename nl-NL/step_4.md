@@ -8,22 +8,24 @@ Tot nu toe heb je je eigen willekeurige nummers gekozen, maar je kunt ook de com
 from random import randint
 ```
 
-2. Verander nu je `x =` en `y =` lijnen om automatisch een willekeurige positie te selecteren:
+2. Verander nu je `x =` en `y =` regels om automatisch een willekeurige positie te selecteren:
     
     ```python
 x = randint (0, 7)
 y = randint (0, 7)
 ```
 
-3. Voer je programma opnieuw uit en je zou een andere willekeurige pixel op het scherm zien verschijnen. Het is dezelfde kleur die u eerder hebt gekozen.
+3. Voer je programma opnieuw uit en er zal een andere willekeurige pixel op het scherm verschijnen. Het is dezelfde kleur die je eerder hebt gekozen.
 
-4. Verander nu uw kleurwaardelijnen naar:
+4. Verander nu je kleur waarde regel naar:
     
     ```python
-r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
+r = randint (0, 255)
+g = randint (0, 255)
+b = randint (0, 255)
 ```
 
-Nu selecteert uw programma automatisch een willekeurige kleur.
+Nu selecteert je programma automatisch een willekeurige kleur.
 
 5. Voer het opnieuw uit en je zou een andere pixel op een willekeurige locatie met een willekeurige kleur moeten zien verschijnen.
 
