@@ -1,6 +1,6 @@
-## Verwenden des Zufallsmoduls
+## Das Zufallsmodul verwenden
 
-Bis jetzt haben Sie Ihre eigenen Zufallszahlen ausgewählt, aber Sie können den Computer stattdessen wählen lassen.
+Bis jetzt habest du deine eigenen Zufallszahlen gewählt, aber du kannst den Computer stattdessen wählen lassen.
 
 1. Fügen Sie ein weiteres `import` hinzu Zeile an der Spitze deines Programms, unten `import SenseHat`:
     
