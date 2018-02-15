@@ -1,17 +1,18 @@
-## De willekeurige module gebruiken
+## De module random (willekeurig) gebruiken
 
-Tot nu toe heb je je eigen willekeurige nummers gekozen, maar je kunt de computer in plaats daarvan laten kiezen.
+Tot nu toe heb je je eigen willekeurige nummers gekozen, maar je kunt ook de computer daarvoor laten kiezen.
 
-1. Voeg nog een `import` toe regel bovenaan je programma, onder `import SenseHat`:
+1. Voeg nog een `import` regel toe bovenaan je programma, onder `import SenseHat`:
     
     ```python
-van willekeurige importrandint
+from random import randint
 ```
 
 2. Verander nu je `x =` en `y =` lijnen om automatisch een willekeurige positie te selecteren:
     
     ```python
-x = randint (0, 7) y = randint (0, 7)
+x = randint (0, 7)
+y = randint (0, 7)
 ```
 
 3. Voer je programma opnieuw uit en je zou een andere willekeurige pixel op het scherm zien verschijnen. Het is dezelfde kleur die u eerder hebt gekozen.
