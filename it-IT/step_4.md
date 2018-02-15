@@ -20,10 +20,12 @@ y = randint(0, 7)
 4. Ora modifica le righe relative ai valori del colore:
     
     ```python
-r = randint (0, 255) g = randint (0, 255) b = randint (0, 255)
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint (0, 255)
 ```
 
-Ora il tuo programma selezionerà automaticamente un colore casuale.
+Ora il programma selezionerà automaticamente un colore a caso.
 
 5. Eseguilo nuovamente e dovresti vedere un altro pixel apparire in una posizione casuale con un colore casuale.
 
