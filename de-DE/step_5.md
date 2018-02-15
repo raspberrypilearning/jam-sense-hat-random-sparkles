@@ -8,14 +8,21 @@ Anstatt dein Programm immer wieder laufen zu lassen, kannst du eine Schleife hin
 from time import sleep
 ```
 
-Sie verwenden dies, um das Programm zwischen den Pixeln anzuhalten.
+Das verwendest du, um das Programm zwischen den Pixeln kurz anzuhalten.
 
-2. Fügen Sie ein `while True hinzu:` zu Ihrem Code, so dass die zufälligen Zeilen, `set_pixel` und `sleep` sind alle innerhalb der Schleife:
+2. Füge ein `while True:` zu deinem Code hinzu, so dass die Zeilen mit den Zufallswerten, `set_pixel` und `sleep` alle innerhalb der Schleife sind:
     
     ```python
-wahr: x = randint (0, 7) y = randint (0, 7) r = randint (0, 255) g = randint (0, 255) b = randint (0, 255) sense.set_pixel (x, y , r, g, b) Schlaf (0,1)
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sensoren.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. Führen Sie den Code und Sie sollten zufällige Funken in Aktion sehen!
+3. Führe den Code aus und du solltest zufälliges Funkeln in Aktion sehen!
 
-4. Versuchen Sie, die Schlafzeit zu ändern, um sie noch kürzer zu machen.
+4. Versuche, die Pausenzeit zu ändern, um sie noch kürzer zu machen.
