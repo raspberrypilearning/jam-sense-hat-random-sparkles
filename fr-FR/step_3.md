@@ -41,7 +41,9 @@ y = 5
 6. Pensez à trois nombres aléatoires entre 0 et 255, puis assignez-les à `r`, `g`, et `b`:
     
     ```python
-r = 19 g = 180 b = 230
+r = 19
+g = 180
+b = 230
 ```
 
 7. Utilisez maintenant le fonction `set_pixel` pour placer votre couleur aléatoire à votre emplacement aléatoire sur l'affichage:
