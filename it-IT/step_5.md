@@ -1,6 +1,6 @@
 ## Aggiungi un ciclo
 
-Anziché lanciare di continuo il tuo programma, puoi aggiungere un ciclo in modo tale che i pixel si accendano di continuo.
+Invece di dover far partire il tuo programma manualmente di continuo, puoi aggiungere un ciclo in modo tale che i pixel si accendano continuamente da soli.
 
 1. Innanzitutto aggiungi un `import` all'inizio del file:
     
@@ -8,9 +8,9 @@ Anziché lanciare di continuo il tuo programma, puoi aggiungere un ciclo in modo
 from time import sleep
 ```
 
-Lo userai nel programma per mettere in pausa tra l'accensione dei vari pixel.
+Questa riga serve a far mettere il programma in pausa tra un'accensione e l'altra dei vari pixel.
 
-2. Aggiungi nel codice una riga `while True:` in modo tale che le righe dove vengono generati i numeri casuali, `set_pixel` e `sleep` stiano tutte all'interno del ciclo:
+2. Aggiungi al tuo codice la riga `while True:`, per far sì che le righe che generano i numeri a caso, la riga `set_pixel` e la riga `sleep` stiano tutte contenute all'interno del ciclo:
     
     ```python
 while True:
@@ -23,6 +23,6 @@ while True:
     sleep(0.1)
 ```
 
-3. Eseguendo il codice dovresti vedere in azione uno scintillio casuale!
+3. Eseguendo il codice dovresti veder partire scintillii a caso!
 
-4. Prova a cambiare il tempo di nella funzione sleep, in modo da accorciare la pausa fra un'accensione e l'altra.
+4. Prova a cambiare il tempo di nella funzione sleep, in modo da accorciare il tempo di pausa tra un'accensione e l'altra.
