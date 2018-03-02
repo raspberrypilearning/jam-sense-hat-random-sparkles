@@ -2,17 +2,17 @@
 
 Először megvizsgáljuk a véletlen számokat, és használjuk a `set_pixel` hogy véletlenszerű színt helyezzen el egy véletlenszerű helyre a Sense HAT kijelzőn.
 
-1. Ha Raspberry Pi-et használ, nyissa meg a Python 3-ot és hozzon létre egy új fájlt. Ha webes emulátort használ, akkor törölje a példakódot, mielőtt elkezdené.
+1. Ha Raspberry Pi-et használ, nyissa meg a Python 3-at és hozzon létre egy új fájlt. Ha webes emulátort használ, akkor törölje a példakódot, mielőtt elkezdené.
 
-2. Az új fájlban indítsa el a Sense HAT modul importálásával.
+2. Az új fájlban indítsa el a Sense HAT modul importálását.
     
-    Ha valódi Sense HAT-ot vagy Trinket-emulátort használ, az importvonal a következő:
+    Ha valódi Sense HAT-et vagy Trinket-emulátort használ, az importvonal a következő:
     
     ```python
 sense_hat import SenseHat
 ```
 
-Ha az asztali emulert használja, az importvonal a következő:
+Ha az asztali emulátort használja, az importvonal a következő:
 
 ```python
 a sense_emu import SenseHat
@@ -20,7 +20,7 @@ a sense_emu import SenseHat
 
 A többi kód azonos lesz minden változatban.
 
-3. Ezután hozzon létre egy kapcsolatot a Sense HAT-hoz hozzáadva:
+3. Ezután hozzon létre egy kapcsolatot a Sense HAT-hez hozzáadva:
     
     ```python
 sense = SenseHat ()
