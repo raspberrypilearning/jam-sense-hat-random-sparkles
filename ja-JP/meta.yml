@@ -1,24 +1,24 @@
 ---
-title: センスHATランダムスパークル
-hero_image: images / banner.png
+title: Sense HAT Random Sparkles
+hero_image: images/banner.png
 description: あなたのセンスHATをプライドで輝かせる
-theme: 赤
+theme: red
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: プログラミング-0、phys-comp-0
+curriculum: programming-0, phys-comp-0
 interests: ""
-technologies: "センスハット、パイソン"
+technologies: "sense-hat, python"
 site_areas: ""
 steps:
   - 
-    title: 前書き
+    title: はじめに
   - 
-    title: あなたが必要とするもの
+    title: 必要なもの
   - 
     title: set_pixelの使用
   - 
-    title: ランダムモジュールの使用
+    title: 乱数モジュールの使用
   - 
     title: ループを追加する
