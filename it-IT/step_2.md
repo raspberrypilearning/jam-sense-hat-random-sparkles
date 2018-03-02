@@ -1,4 +1,4 @@
-## Cosa ti serve
+## Di cosa avrai bisogno
 
 ### Hardware
 
