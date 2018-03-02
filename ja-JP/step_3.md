@@ -9,48 +9,48 @@
     実機のSense HATまたはTrinketエミュレータを使用している場合、インポート行は次のようになります。
     
     ```python
-from sense_hat import SenseHat
-```
+    from sense_hat import SenseHat
+    ```
 
-デスクトップエミュレータを使用している場合、インポート行は次のようになります。
+    デスクトップエミュレータを使用している場合、インポート行は次のようになります。
 
-```python
-from sense_emu import SenseHat
-```
+    ```python
+    from sense_emu import SenseHat
+    ```
 
-コードの残りの部分は、すべてのバージョンで同じになります。
+    コードの残りの部分は、すべてのバージョンで同じになります。
 
 3. 次に、Sense HATへの接続を追加します。
     
     ```python
-sense = SenseHat()
-```
+    sense = SenseHat()
+    ```
 
 4. 今度は0～7の間の乱数を考え、それを変数`x`に代入します：
     
     ```python
-x = 4
-```
+    x = 4
+    ```
 
 5. 0～7の間の別の乱数を考え、それを`y`に割り当てます：
     
     ```python
-y = 5
-```
+    y = 5
+    ```
 
 6. 0〜255の間の3つの乱数を考え、`r`、`g`、`b`を割り当てます。
     
     ```python
-r = 19
-g = 180
-b = 230
-```
+    r = 19
+    g = 180
+    b = 230
+    ```
 
 7. `set_pixel`関数を使用してください。r、g、bに指定した色を、ディスプレイ上のx、yに指定した位置に配置します：
     
     ```python
-sense.set_pixel(x, y, r, g, b)
-```
+    sense.set_pixel(x, y, r, g, b)
+    ```
 
 8. **F5**キーを押してコードを実行してください。 (Trinketの場合は**Run**ボタンをクリックしてください) 1つのピクセルが点灯するはずです。
 
