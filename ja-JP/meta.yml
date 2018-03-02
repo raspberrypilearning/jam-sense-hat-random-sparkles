@@ -1,6 +1,6 @@
 ---
 title: Sense HAT Random Sparkles
-hero_image: images/banner.png
+hero_image: images/cover.png
 description: あなたのセンスHATをプライドで輝かせる
 theme: red
 duration: 2
@@ -12,13 +12,13 @@ interests: ""
 technologies: "sense-hat, python"
 site_areas: ""
 steps:
-  - 
+  -
     title: はじめに
-  - 
+  -
     title: 必要なもの
-  - 
+  -
     title: set_pixelの使用
-  - 
+  -
     title: 乱数モジュールの使用
-  - 
+  -
     title: ループを追加する

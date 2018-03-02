@@ -1,6 +1,6 @@
 ---
 title: Sense HAT Scintillements aléatoires
-hero_image: images/banner.png
+hero_image: images/cover.png
 description: Faites briller votre Sense HAT avec fierté
 theme: red
 duration: 2
@@ -12,13 +12,13 @@ interests: ""
 technologies: "sense-hat, python"
 site_areas: ""
 steps:
-  - 
+  -
     title: Introduction
-  - 
+  -
     title: Ce dont vous aurez besoin
-  - 
+  -
     title: Utiliser set_pixel
-  - 
+  -
     title: En utilisant le module aléatoire "random"
-  - 
+  -
     title: Ajouter une boucle

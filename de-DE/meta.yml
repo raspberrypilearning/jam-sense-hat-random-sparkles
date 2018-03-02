@@ -1,6 +1,6 @@
 ---
 title: Zufälliges Funkeln mit Sense HAT
-hero_image: images/banner.png
+hero_image: images/cover.png
 description: Lassen Sie Ihren Sense HAT mit Stolz erstrahlen
 theme: red
 duration: 2
@@ -12,13 +12,13 @@ interests: ""
 technologies: "sense-hat, python"
 site_areas: ""
 steps:
-  - 
+  -
     title: Einleitung
-  - 
+  -
     title: Was wirst du brauchen
-  - 
+  -
     title: Verwenden von set_pixel
-  - 
+  -
     title: Das Zufallsmodul verwenden
-  - 
+  -
     title: Eine Schleife hinzufügen
