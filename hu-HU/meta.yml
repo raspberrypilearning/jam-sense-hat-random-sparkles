@@ -1,7 +1,7 @@
 ---
-title: Sense HAT Véletlenszerű Sparkles
+title: Sense HAT Véletlenszerű Szikrák
 hero_image: images / banner.png
-description: Tegye meg a Sense HAT büszkeségét
+description: Tedd büszkén ragyogová a Sence HAT -et
 theme: piros
 duration: 2
 listed: false
@@ -9,7 +9,7 @@ ingredient: false
 copyedit: false
 curriculum: programozás-0, fizikai-comp-0
 interests: ""
-technologies: "sense-kalap, python"
+technologies: "sense-kapap, python"
 site_areas: ""
 steps:
   - 
