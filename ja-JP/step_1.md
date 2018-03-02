@@ -1,10 +1,10 @@
-## 前書き
+## はじめに
 
-あなたのセンスHATをプライドで輝かせる
+Sense HATを誇り高く輝かせよう！
 
 ## ノート
 
-このアクティビティでは、本物のSense HATハードウェア、Raspbianのデスクトップエミュレータ、またはTrinketのWebベースのエミュレータを使用できます。
+このアクティビティでは、実機のSense HATか、Raspbianのデスクトップエミュレータ、またはTrinketのWebベースのエミュレータを使用できます。
 
-- Sense HATを使用している場合は、起動する前にRaspberry Piに接続してください。
-- Trinketエミュレータを使用している場合は、Webブラウザを開き、**trinket.io/sense-hat**に行きます。
+- 実機のSense HATを使用する場合は、起動する前にRaspberry Piに接続してください。
+- Trinketエミュレータを使用する場合は、Webブラウザを開き、**trinket.io/sense-hat**に行きます。
