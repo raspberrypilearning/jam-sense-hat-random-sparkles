@@ -1,8 +1,8 @@
-## Uso del modulo random
+## Utilizzare il modulo random
 
-Finora hai scelto tu i numeri, ma puoi fare in modo che sia il computer a sceglierli.
+Finora sei stato tu a scegliere i numeri, ma puoi fare in modo che sia il computer a sceglierli.
 
-1. Aggiungi un'altra riga di `import` nella parte superiore del programma, subito sotto alla riga `import SenseHat`:
+1. Aggiungi un'altra riga `import` all'inizio del programma, appena sotto alla riga `import SenseHat`:
     
     ```python
 from random import randint
@@ -15,7 +15,7 @@ x = randint(0, 7)
 y = randint(0, 7)
 ```
 
-3. Esegui nuovamente il programma e dovresti vedere un altro pixel posizionato a caso sul display. Sarà dello stesso colore che hai scelto in precedenza.
+3. Esegui nuovamente il programma. Dovresti vedere un altro pixel accendersi a caso sul display. Sarà dello stesso colore che hai scelto in precedenza.
 
 4. Ora modifica le righe relative ai valori del colore:
     
@@ -25,8 +25,8 @@ g = randint(0, 255)
 b = randint (0, 255)
 ```
 
-Ora il programma selezionerà automaticamente un colore a caso.
+In questo modo, il programma selezionerà automaticamente un colore a caso.
 
-5. Eseguilo nuovamente e dovresti vedere un altro pixel apparire in una posizione a caso e con un colore casuale.
+5. Esegui di nuovo il tuo codice. Dovresti vedere un altro pixel apparire in una posizione a caso e con un colore a caso.
 
-6. Eseguilo un altro paio di volte e dovresti vedere la griglia riempirsi di pixel disposti a caso e con colori casuali.
+6. Esegui il codice ancora un paio di volte. Vedrai la griglia riempirsi di pixel disposti a caso e con colori a caso.
