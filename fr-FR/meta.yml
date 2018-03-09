@@ -1,0 +1,24 @@
+---
+title: Étincelles aléatoires sur Sense HAT
+hero_image: images/cover.png
+description: Faites briller votre Sense HAT avec fierté
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: ""
+technologies: "sense-hat, python"
+site_areas: ""
+steps:
+  -
+    title: Introduction
+  -
+    title: Ce dont vous aurez besoin
+  -
+    title: Utiliser set_pixel
+  -
+    title: Utiliser le module aléatoire
+  -
+    title: Ajouter une boucle

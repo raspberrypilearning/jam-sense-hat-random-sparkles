@@ -1,0 +1,24 @@
+---
+title: Scintillii con il Sense HAT
+hero_image: images/cover.png
+description: Fai risplendere d'orgoglio il tuo Sense Hat
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: ""
+technologies: "sense-hat, python"
+site_areas: ""
+steps:
+  -
+    title: Introduzione
+  -
+    title: Di cosa avrai bisogno
+  -
+    title: Usare set_pixel
+  -
+    title: Utilizzare il modulo random
+  -
+    title: Aggiungi un ciclo

@@ -2,12 +2,7 @@
 
 ### Hardware
 
-+ List hardware here, or delete section.
+- Raspberry Pi
+- Sense HAT
 
-### Software
-
-+ List software here, or delete section.
-
-### Additional Resources
-
-+ List additional resources, or delete section.
+Alternatively, you can use a Sense HAT emultor on a PC
