@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: програмиране-0, phys-comp-0
-interests: ""
-technologies: "смислена шапка, питон"
-site_areas: ""
-steps:
-  - 
-    title: Въведение
-  - 
-    title: Какво ще ви трябва
-  - 
-    title: Използвайки set_pixel
-  - 
-    title: Използване на произволен модул
-  - 
-    title: Добавете цикъл
+curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
+interests: art
+technologies: sense-hat, python
+site_areas: jam
+hardware: sense-hat
+software: python
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: Въведение
+-
+title: Какво ще ви трябва
+-
+title: Използвайки set_pixel
+-
+title: Използване на произволен модул
+-
+title: Добавете цикъл
