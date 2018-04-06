@@ -7,18 +7,22 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: प्रोग्रामिंग -0, फिज़-कंप-0
-interests: ""
-technologies: "समझ-टोपी, अजगर"
-site_areas: ""
-steps:
-  - 
-    title: परिचय
-  - 
-    title: तुम क्या आवश्यकता होगी
-  - 
-    title: Set_pixel का उपयोग करना
-  - 
-    title: यादृच्छिक मॉड्यूल का उपयोग करना
-  - 
-    title: एक पाश जोड़ें
+curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
+interests: art
+technologies: sense-hat, python
+site_areas: jam
+hardware: sense-hat
+software: python
+version: 4
+last_tested: 2017-01-01
+steps: 
+-
+title: परिचय
+-
+title: तुम क्या आवश्यकता होगी
+-
+title: Set_pixel का उपयोग करना
+-
+title: यादृच्छिक मॉड्यूल का उपयोग करना
+-
+title: एक पाश जोड़ें
