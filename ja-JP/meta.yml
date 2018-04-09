@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: はじめに
--
-title: 必要なもの
--
-title: set_pixelの使用
--
-title: 乱数モジュールの使用
--
-title: ループを追加する
+- title: はじめに
+- title: 必要なもの
+- title: set_pixelの使用
+- title: 乱数モジュールの使用
+- title: ループを追加する

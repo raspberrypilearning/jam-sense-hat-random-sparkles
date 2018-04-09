@@ -2,7 +2,7 @@
 title: Sense HAT lukraak knipperen
 hero_image: images/cover.png
 description: Laat je Sense HAT stralen
-theme: rood
+theme: red
 duration: 2
 listed: false
 ingredient: false
@@ -16,13 +16,8 @@ software: python
 version: 4
 last_tested: 2017-01-01
 steps: 
--
-title: Inleiding
--
-title: Wat heb je nodig
--
-title: Het gebruik van set_pixel
--
-title: De module random gebruiken
--
-title: Voeg een lus toe
+- title: Inleiding
+- title: Wat heb je nodig
+- title: Het gebruik van set_pixel
+- title: De module random gebruiken
+- title: Voeg een lus toe
