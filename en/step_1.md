@@ -15,7 +15,13 @@ or:
 
 - PC
 
-If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from `from sense_hat import SenseHat` to `from sense_emu import SenseHat`.
+If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+
+`from sense_hat import SenseHat`
+
+to:
+
+`from sense_emu import SenseHat`.
 
 If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
 
