@@ -1,32 +1,44 @@
-## Using the random module
+## Add a loop
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. Add another `import` line at the top of your program, below `import SenseHat`:
+--- task ---
 
-    ```python
-    from random import randint
-    ```
+First, add an `import` to the top of your file:
 
-1. Now change your `x =` and `y =` lines to automatically select a random position:
+```python
+from time import sleep
+```
 
-    ```python
+You'll use this to pause the program between pixels.
+
+--- /task ---
+
+--- task ---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
     x = randint(0, 7)
     y = randint(0, 7)
-    ```
-
-1. Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
-
-1. Now change your colour value lines to:
-
-    ```python
     r = randint(0, 255)
     g = randint(0, 255)
     b = randint(0, 255)
-    ```
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
+```
 
-    Now your program will automatically select a random colour.
+--- /task ---
 
-1. Run it again, and you should see another pixel appear in a random location with a random colour.
+--- task ---
 
-1. Run it a few more times, and you should see more of the grid fill up with random pixels.
+Run the code and you should see random sparkles in action!
+
+--- /task ---
+
+--- task ---
+
+Try changing the sleep time to make it even shorter.
+
+--- /task ---
