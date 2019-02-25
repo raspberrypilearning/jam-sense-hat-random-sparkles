@@ -11,6 +11,12 @@ title: What you will need
 - Raspberry Pi computer
 - Sense HAT
 
+    You'll need to install Mu. Open a Terminal window and type the following command:
+
+    ```bash
+    sudo apt install mu-editor
+    ```
+
 or:
 
 - PC

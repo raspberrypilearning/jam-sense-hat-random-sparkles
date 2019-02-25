@@ -4,7 +4,7 @@ First, you'll think up some random numbers and use the `set_pixel` function to p
 
 --- task ---
 
-If you're using a Raspberry Pi, open **Python 3** and create a new file. If you're using the web emulator, delete the example code before you begin.
+If you're using a Raspberry Pi, open **Mu** to start. If you're using the web emulator, delete the example code before you begin.
 
 --- /task ---
 
@@ -82,7 +82,7 @@ sense.set_pixel(x, y, r, g, b)
 
 --- task ---
 
-Now run your code by pressing **F5** (or the **Run** button in Trinket). You should see a single pixel light up.
+Now run your code by the **Run** button. You should see a single pixel light up.
 
 --- /task ---
 
