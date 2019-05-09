@@ -1,57 +1,56 @@
-## set_pixelの使用
+## Using the random module
 
-初めにいくつかの数を思い浮かべ、`set_pixel`関数を使用してSense HATディスプレイの任意の場所にランダムな色を配置します。
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
-1. Raspberry Piを使用している場合は、Python 3を開いて新しいファイルを作成します。 Webエミュレータを使用している場合は、開始する前にサンプルコードを削除してください。
+\--- task \---
 
-2. 新しいファイルで、まずSense HATモジュールをインポートします。
-    
-    実機のSense HATまたはTrinketエミュレータを使用している場合、インポート行は次のようになります。
-    
-    ```python
-from sense_hat import SenseHat
-```
-
-デスクトップエミュレータを使用している場合、インポート行は次のようになります。
+Add another `import` line at the top of your program, below `import SenseHat`:
 
 ```python
-from sense_emu import SenseHat
+from random import randint
 ```
 
-コードの残りの部分は、すべてのバージョンで同じになります。
+\--- /task \---
 
-3. 次に、Sense HATへの接続を追加します。
-    
-    ```python
-sense = SenseHat()
+\--- task \---
+
+Now change your `x =` and `y =` lines to automatically select a random position:
+
+```python
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-4. 今度は0～7の間の乱数を考え、それを変数`x`に代入します：
-    
-    ```python
-x = 4
+\--- /task \---
+
+\--- task \---
+
+Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+
+\--- /task \---
+
+\--- task \---
+
+Now change your colour value lines to:
+
+```python
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 ```
 
-5. 0～7の間の別の乱数を考え、それを`y`に割り当てます：
-    
-    ```python
-y = 5
-```
+Now your program will automatically select a random colour.
 
-6. 0〜255の間の3つの乱数を考え、`r`、`g`、`b`を割り当てます。
-    
-    ```python
-r = 19
-g = 180
-b = 230
-```
+\--- /task \---
 
-7. `set_pixel`関数を使用してください。r、g、bに指定した色を、ディスプレイ上のx、yに指定した位置に配置します：
-    
-    ```python
-sense.set_pixel(x, y, r, g, b)
-```
+\--- task \---
 
-8. **F5**キーを押してコードを実行してください。 (Trinketの場合は**Run**ボタンをクリックしてください) 1つのピクセルが点灯するはずです。
+Run it again, and you should see another pixel appear in a random location with a random colour.
 
-9. 今度は、いくつか新たに乱数を決めて、それらをすべて変更して、プログラムをもう一度実行してください。 2番目のピクセルがディスプレイに表示されます。
+\--- /task \---
+
+\--- task \---
+
+Run it a few more times, and you should see more of the grid fill up with random pixels.
+
+\--- /task \---
