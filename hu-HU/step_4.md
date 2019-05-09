@@ -1,29 +1,44 @@
-## Véletlenszerű modul használata
+## Add a loop
 
-Eddig kiválasztottad a saját véletlen számadatát, de hagyd, hogy a számítógép helyett inkább azokat válassza.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. Új 123_6_0_321 | import</code> hozzáadása sor a program tetején, alább `import SenseHat`:
-    
-    ```python
-a véletlenszerű importálásból
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. Most módosítsa a `x =` és `y =` sorok automatikus véletlen helyzet kiválasztásához:
-    
-    ```python
-x = regiszter (0, 7) y = regiszter (0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. Futtassa újra a programot, és látnia kell egy másik véletlen pixelet a kijelzőn. Ugyanaz lesz a színe, amelyet korábban választott.
+\--- /task \---
 
-4. Most módosítsa színértéksorjait:
-    
-    ```python
-r = regiszter (0, 255) g = regiszter (0, 255) b = regiszter (0, 255)
-```
+\--- task \---
 
-Most a program automatikusan kiválasztja a véletlenszerű színt.
+Run the code and you should see random sparkles in action!
 
-5. Futtassa újra, és egy véletlenszerű színű véletlenszerű helyen jelenjen meg egy másik pixel.
+\--- /task \---
 
-6. Futtasd még néhányszor, és látnod kell, hogy a rács nagyobb része véletlen pixelekkel tölti fel.
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
