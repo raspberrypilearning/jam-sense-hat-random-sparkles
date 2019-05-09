@@ -1,55 +1,56 @@
-## Използвайки set_pixel
+## Using the random module
 
-Първо, ще помислим за произволни номера и ще използваме `set_pixel` функция за поставяне на произволен цвят на произволно място на дисплея Sense HAT.
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
-1. Ако използвате Raspberry Pi, отворете Python 3 и създайте нов файл. Ако използвате емулатора на уеб, изтрийте примерния код, преди да започнете.
+\--- task \---
 
-2. В новия файл започнете с импортирането на модула Sense HAT.
-    
-    Ако използвате истински Sense HAT или емулатора Trinket, редът за импортиране е:
-    
-    ```python
-от sense_hat внос SenseHat
-```
-
-Ако използвате емулатора на работния плот, редът за импортиране е:
+Add another `import` line at the top of your program, below `import SenseHat`:
 
 ```python
-от sense_emu внос SenseHat
+from random import randint
 ```
 
-Останалата част от кода ще бъде идентична за всички версии.
+\--- /task \---
 
-3. След това създайте връзка със Sense HAT, като добавите:
-    
-    ```python
-sense = SenseHat ()
+\--- task \---
+
+Now change your `x =` and `y =` lines to automatically select a random position:
+
+```python
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-4. Сега помислете за произволен номер между 0 и 7 и го задайте на променливата `x`, например:
-    
-    ```python
-х = 4
+\--- /task \---
+
+\--- task \---
+
+Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+
+\--- /task \---
+
+\--- task \---
+
+Now change your colour value lines to:
+
+```python
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 ```
 
-5. Помислете за друг случайно число между 0 и 7, след което го присвоите на `y`:
-    
-    ```python
-y = 5
-```
+Now your program will automatically select a random colour.
 
-6. Помислете за три произволни числа между 0 и 255, след което ги задайте на `r`, `g`, и `b`:
-    
-    ```python
-r = 19 g = 180 b = 230
-```
+\--- /task \---
 
-7. Сега използвайте `set_pixel` функция за поставяне на произволен цвят на произволно място на дисплея:
-    
-    ```python
-sense.set_pixel (х, у, r, g, b)
-```
+\--- task \---
 
-8. Сега изпълнете кода си, като натиснете **F5** (или бутона **Пусни** в Trinket). Трябва да виждате един пиксел светлина.
+Run it again, and you should see another pixel appear in a random location with a random colour.
 
-9. Сега изберете някои нови произволни числа - променете ги всички - и стартирайте отново програмата. Вторият пиксел трябва да се появи на дисплея!
+\--- /task \---
+
+\--- task \---
+
+Run it a few more times, and you should see more of the grid fill up with random pixels.
+
+\--- /task \---
