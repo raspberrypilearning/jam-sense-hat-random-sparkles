@@ -1,32 +1,44 @@
-## En utilisant le module aléatoire "random"
+## Add a loop
 
-Jusqu'à présent, vous avez choisi vos propres nombres aléatoires mais vous pouvez laisser l'ordinateur les choisir à votre place.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. Ajoutez une autre ligne `import` au haut de votre programme, sous `import SenseHat`:
-    
-    ```python
-from random import randint
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. Maintenant, changez vos lignes `x=` et `y =` pour choisir une position aléatoire automatiquement:
-    
-    ```python
-x = randint(0, 7)
-y = randint(0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. Exécutez votre programme à nouveau et vous devriez voir un autre pixel aléatoire apparaître sur l'affichage. Il sera de la même couleur que vous avez choisie précédemment.
+\--- /task \---
 
-4. À présent, changez les lignes déterminant les valeurs de la couleur à:
-    
-    ```python
-r = randint(0, 255)
-v = randint(0, 255)
-b = randint(0, 255)
-```
+\--- task \---
 
-Votre programme choisira automatiquement une couleur aléatoire.
+Run the code and you should see random sparkles in action!
 
-5. Exécutez le à nouveau et vous devriez voir un autre pixel d'une couleur aléatoire apparaître à une position aléatoire.
+\--- /task \---
 
-6. Exécutez le quelques fois de plus et vous devriez voir l'affichage se remplir progressivement de pixels aléatoires.
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
