@@ -1,32 +1,44 @@
-## استفاده از ماژول تصادفی
+## Add a loop
 
-تا کنون شما اعداد تصادفی خود را انتخاب کرده اید، اما می‌توانید بگذارید تا رایانه آن‌ها را انتخاب کند.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. در بالای برنامه خود و در زیر `import SenseHat`، خط `import` دیگری را اضافه کنید:
-    
-    ```python
-from random import randint
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. حال خط‌های `x =` و `y =` را برای انتخاب خودکار موقعیت تصادفی تغییر دهید:
-    
-    ```python
-x = randint(0, 7)
-y = randint(0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. دوباره برنامه‌ی خود را اجرا کنید، و می‌بینید که یک پیکسل تصادفی دیگر روی صفحه نمایش قرار داده شده است. این به همان رنگی است که قبلا انتخاب کرده اید.
+\--- /task \---
 
-4. حالا خطوط مربوط به مقدارهای رنگ خود را به صورت زیر تغییر دهید:
-    
-    ```python
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
-```
+\--- task \---
 
-اکنون برنامه شما به طور خودکار، یک رنگ تصادفی را انتخاب می‌کند.
+Run the code and you should see random sparkles in action!
 
-5. دوباره آن را اجرا کنید و می‌بینید که یک پیکسل دیگر در یک مکان تصادفی با یک رنگ تصادفی ظاهر شده‌است.
+\--- /task \---
 
-6. چند بار دیگر آن را اجرا کنید و می‌بنید که بخش بیش‌تری از شبکه با پیکسل‌های تصادفی پر می‌شود.
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
