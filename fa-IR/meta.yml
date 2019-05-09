@@ -2,23 +2,16 @@
 title: جرقه‌های تصادفی Sense HAT
 hero_image: images/cover.png
 description: با افتخار از Sense HAT خود استفاده کنید
-theme: قرمز
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ""
-technologies: "sense-hat، پایتون"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: مقدمه
   - 
-    title: آنچه شما نیاز دارید
+    title: Using set_pixel
   - 
-    title: استفاده از set_pixel
+    title: Using the random module
   - 
-    title: استفاده از ماژول تصادفی
-  - 
-    title: یک حلقه اضافه کنید
+    title: Add a loop
