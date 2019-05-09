@@ -1,32 +1,44 @@
-## De random module gebruiken
+## Add a loop
 
-Tot nu toe heb je je eigen willekeurige nummers gekozen, maar je kunt ze ook door de computer laten kiezen.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. Voeg nog een `import` regel toe bovenaan je programma, onder `import SenseHat`:
-    
-    ```python
-from random import randint
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. Verander nu je `x =` en `y =` regels om automatisch een willekeurige positie te selecteren:
-    
-    ```python
-x = randint (0, 7)
-y = randint (0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. Voer je programma opnieuw uit en er zal een andere willekeurige pixel op het scherm oplichten. Het is dezelfde kleur die je eerder hebt gekozen.
+\--- /task \---
 
-4. Verander nu de code waar je de kleurwaarde toekent naar:
-    
-    ```python
-r = randint (0, 255)
-g = randint (0, 255)
-b = randint (0, 255)
-```
+\--- task \---
 
-Nu selecteert je programma automatisch een willekeurige kleur.
+Run the code and you should see random sparkles in action!
 
-5. Voer het opnieuw uit en je zou een andere pixel op een willekeurige locatie met een willekeurige kleur moeten zien verschijnen.
+\--- /task \---
 
-6. Voer het nog een paar keer uit, en je zou meer van het raster moeten zien vollopen met willekeurige pixels.
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
