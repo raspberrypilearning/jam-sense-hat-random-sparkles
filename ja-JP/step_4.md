@@ -1,32 +1,44 @@
-## 乱数モジュールの使用
+## Add a loop
 
-これまではあなたが乱数を選んでいたのですが、コンピュータに選ばせることができます。
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. プログラムに別の`import`文を追加します。`import SenseHat`文の下に追加します。：
-    
-    ```python
-from random import randint
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. 自動的にランダムな位置を選択するため、`x =`、`y =`を変更してください。：
-    
-    ```python
-x = randint(0, 7)
-y = randint(0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. プログラムをもう一度実行すると、別のピクセルがディスプレイに表示されます。 あなたが以前に選んだものと同じ色になります。
+\--- /task \---
 
-4. 色の値指定を次のように変更します。
-    
-    ```python
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
-```
+\--- task \---
 
-これでプログラムは自動的にランダムな色を選択します。
+Run the code and you should see random sparkles in action!
 
-5. プログラムをもう一度実行すると、ランダムな色でランダムな場所にピクセルが表示されます。
+\--- /task \---
 
-6. 数回それを実行すると、より多くのグリッドがランダムなピクセルでいっぱいになるはずです。
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
