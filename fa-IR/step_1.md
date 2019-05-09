@@ -1,10 +1,61 @@
 ## مقدمه
 
-با افتخار از Sense HAT خود استفاده کنید
+Make your Sense HAT shine with pride.
 
-## توجه
+\--- collapse \---
 
-برای این فعالیت، می‌توانید از سخت افزار واقعی Sence HAT، شبیه ساز دسکتاپ در Raspbian یا شبیه ساز مبتنی بر وب در Trinket استفاده کنید.
+* * *
 
-- اگر از Sense HAT استفاده می‌کنید، قبل از بوت شدن رزبری پای، آن را متصل کنید.
-- اگر از شبیه ساز Trinket استفاده می‌کنید، مرورگر وب را باز کنید و به آدرس **trinket.io/sense-hat** بروید.
+## title: What you will need
+
+- Raspberry Pi computer
+- Sense HAT
+    
+    You'll need to install Mu. Open a Terminal window and type the following command:
+    
+    ```bash
+    sudo apt install mu-editor
+    ```
+
+or:
+
+- PC
+
+If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+
+`from sense_hat import SenseHat`
+
+to:
+
+`from sense_emu import SenseHat`.
+
+If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: What you will learn
+
+- Controlling colour LEDs on the Sense HAT
+- RGB colours
+- Loops and iteration
+- Randomness
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Information for Jam organisers
+
+\--- no-print \---
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+
+\--- /no-print \---
+
+\--- /collapse \---
