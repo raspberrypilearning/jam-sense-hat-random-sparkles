@@ -1,55 +1,56 @@
-## A set_pixel használata
+## Using the random module
 
-Először megvizsgáljuk a véletlen számokat, és használjuk a `set_pixel` hogy véletlenszerű színt helyezzen el egy véletlenszerű helyre a Sense HAT kijelzőn.
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
-1. Ha Raspberry Pi-et használ, nyissa meg a Python 3-at és hozzon létre egy új fájlt. Ha webes emulátort használ, akkor törölje a példakódot, mielőtt elkezdené.
+\--- task \---
 
-2. Az új fájlban indítsa el a Sense HAT modul importálását.
-    
-    Ha valódi Sense HAT-et vagy Trinket-emulátort használ, az importvonal a következő:
-    
-    ```python
-sense_hat import SenseHat
-```
-
-Ha az asztali emulátort használja, az importvonal a következő:
+Add another `import` line at the top of your program, below `import SenseHat`:
 
 ```python
-a sense_emu import SenseHat
+from random import randint
 ```
 
-A többi kód azonos lesz minden változatban.
+\--- /task \---
 
-3. Ezután hozzon létre egy kapcsolatot a Sense HAT-hez hozzáadva:
-    
-    ```python
-sense = SenseHat ()
+\--- task \---
+
+Now change your `x =` and `y =` lines to automatically select a random position:
+
+```python
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-4. Most gondoljon egy 0 és 7 közötti véletlen számra, és hozzárendelje a változóhoz `x`, például:
-    
-    ```python
-x = 4
+\--- /task \---
+
+\--- task \---
+
+Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+
+\--- /task \---
+
+\--- task \---
+
+Now change your colour value lines to:
+
+```python
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 ```
 
-5. Gondolj egy másik véletlen számra 0 és 7 között, majd rendelje hozzá `y`:
-    
-    ```python
-y = 5
-```
+Now your program will automatically select a random colour.
 
-6. Gondolj három véletlen számra 0 és 255 között, majd adja hozzá azokat `r`, `g`és `b`:
-    
-    ```python
-r = 19 g = 180 b = 230
-```
+\--- /task \---
 
-7. Most használja a `set_pixel` -t funkcióval a véletlenszerű színt elhelyezheti a véletlenszerű helyen a kijelzőn:
-    
-    ```python
-sense.set_pixel (x, y, r, g, b)
-```
+\--- task \---
 
-8. Most futtassa a kódot a **F5** gombbal (vagy a **Run** gomb a Trinketben). Egy pixeles fényt kell látnia.
+Run it again, and you should see another pixel appear in a random location with a random colour.
 
-9. Most válasszon néhány új véletlen számot - mindet megváltoztassa - és futtassa újra a programot. Egy második pixel jelenik meg a kijelzőn!
+\--- /task \---
+
+\--- task \---
+
+Run it a few more times, and you should see more of the grid fill up with random pixels.
+
+\--- /task \---
