@@ -1,57 +1,56 @@
-## Utiliser set_pixel
+## Using the random module
 
-D'abord, nous allons penser à des nombres aléatoires et utiliser le fonction `set_pixel` pour placer une couleur aléatoire sur un emplacement aléatoire sur l'écran Sense HAT.
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
-1. Si vous utilisez un Raspberry Pi, ouvrez Python 3 et créez un nouveau fichier. Si vous utilisez l'émulateur Web, supprimez l'exemple de code avant de commencer.
+\--- task \---
 
-2. Dans le nouveau fichier, commencez par importer le module Sense HAT.
-    
-    Si vous utilisez un vrai Sense HAT ou l'émulateur Trinket, la ligne d'import est:
-    
-    ```python
-from sense_hat import SenseHat
-```
-
-Si vous utilisez l'émulateur de bureau, la ligne d'import est:
+Add another `import` line at the top of your program, below `import SenseHat`:
 
 ```python
-from sense_emu import SenseHat
+from random import randint
 ```
 
-Le reste du code sera identique pour toutes les versions.
+\--- /task \---
 
-3. Ensuite, créez une connexion à votre Sense HAT en ajoutant:
-    
-    ```python
-sense = SenseHat()
+\--- task \---
+
+Now change your `x =` and `y =` lines to automatically select a random position:
+
+```python
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-4. Pensez maintenant à un nombre aléatoire compris entre 0 et 7 et attribuez-le à la variable `x`, par exemple:
-    
-    ```python
-x = 4
+\--- /task \---
+
+\--- task \---
+
+Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+
+\--- /task \---
+
+\--- task \---
+
+Now change your colour value lines to:
+
+```python
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 ```
 
-5. Pensez à un autre nombre aléatoire compris entre 0 et 7, puis attribuez-le à `y`:
-    
-    ```python
-y = 5
-```
+Now your program will automatically select a random colour.
 
-6. Pensez à trois nombres aléatoires entre 0 et 255, puis assignez-les à `r`, `g`, et `b`:
-    
-    ```python
-r = 19
-g = 180
-b = 230
-```
+\--- /task \---
 
-7. Utilisez maintenant le fonction `set_pixel` pour placer votre couleur aléatoire à votre emplacement aléatoire sur l'affichage:
-    
-    ```python
-sense.set_pixel(x, y, r, g, b)
-```
+\--- task \---
 
-8. Maintenant, lancez votre code en appuyant sur **F5** (ou le bouton **Run** dans Trinket). Vous devriez voir qu'un seul pixel s'allume.
+Run it again, and you should see another pixel appear in a random location with a random colour.
 
-9. Choisissez maintenant de nouveaux nombres aléatoires - changez-les tous - et réexécutez le programme. Un deuxième pixel devrait apparaître sur l'affichage!
+\--- /task \---
+
+\--- task \---
+
+Run it a few more times, and you should see more of the grid fill up with random pixels.
+
+\--- /task \---
