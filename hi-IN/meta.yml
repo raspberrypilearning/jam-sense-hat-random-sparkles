@@ -1,24 +1,17 @@
 ---
-title: सेंस एचएटी रैंडम स्पार्कलस
+title: Sense HAT की यादृच्छिक चमक
 hero_image: images/cover.png
-description: गर्व के साथ अपना संवेदना कराएं चमकें
-theme: लाल
-duration: 2
+description: गर्व के साथ अपने Sense HAT को चमकाए
 listed: false
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ""
-technologies: "समझ-टोपी, अजगर"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: परिचय
   - 
-    title: तुम क्या आवश्यकता होगी
+    title: Using set_pixel
   - 
-    title: Set_pixel का उपयोग करना
+    title: Using the random module
   - 
-    title: यादृच्छिक मॉड्यूल का उपयोग करना
-  - 
-    title: एक पाश जोड़ें
+    title: Add a loop
