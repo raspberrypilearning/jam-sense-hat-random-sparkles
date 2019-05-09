@@ -1,29 +1,44 @@
-## Използване на произволен модул
+## Add a loop
 
-Досега сте избрали свои собствени произволни номера, но вместо това можете да оставите компютъра да ги избере.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. Добавете още `импортирайте` линия в горната част на програмата си, по-долу `import SenseHat`:
-    
-    ```python
-от случаен рейтинг за внос
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. Сега променете `x =` и `y =` линии, за да изберете автоматично произволна позиция:
-    
-    ```python
-x = randint (0, 7) y = randint (0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. Стартирайте отново програмата си и трябва да видите друг случаен пиксел, поставен на дисплея. Ще бъде същият цвят, който сте избрали преди това.
+\--- /task \---
 
-4. Сега променете линиите за стойност на цветовете на:
-    
-    ```python
-r = randint (0, 255), g = randint (0, 255), b = randint (0, 255)
-```
+\--- task \---
 
-Сега вашата програма автоматично ще избере произволен цвят.
+Run the code and you should see random sparkles in action!
 
-5. Пуснете го отново и трябва да видите друг пиксел, който се появява на произволно място с произволен цвят.
+\--- /task \---
 
-6. Пуснете го още няколко пъти и трябва да видите повече от мрежата, запълнена с произволни пиксели.
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
