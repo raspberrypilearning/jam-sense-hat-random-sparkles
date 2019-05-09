@@ -1,29 +1,44 @@
-## यादृच्छिक मॉड्यूल का उपयोग करना
+## Add a loop
 
-अब तक आपने अपना यादृच्छिक नंबर चुना है, लेकिन आप कंप्यूटर को उन्हें बजाय चुनने दे सकते हैं।
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-1. एक और जोड़ें `आयात` अपने प्रोग्राम के शीर्ष पर लाइन, नीचे `आयात सेंसहैट`:
-    
-    ```python
-यादृच्छिक आयात रैंडिंक से
+\--- task \---
+
+First, add an `import` to the top of your file:
+
+```python
+from time import sleep
 ```
 
-2. अब अपना `x =` और `y =` स्वतः यादृच्छिक स्थिति को चुनने के लिए पंक्तियां:
-    
-    ```python
-x = रैंडिंट (0, 7) y = रैंडिंट (0, 7)
+You'll use this to pause the program between pixels.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+
+```python
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-3. अपने कार्यक्रम को फिर से चलाएं, और आपको प्रदर्शन पर एक और यादृच्छिक पिक्सेल रखा जाना चाहिए। यह वही रंग होगा जिसे आपने पहले चुना था।
+\--- /task \---
 
-4. अब अपनी रंग मान लाइनों को निम्न में बदलें:
-    
-    ```python
-r = रैंडिंट (0, 255) जी = रैंडिंट (0, 255) बी = रैंडिंट (0, 255)
-```
+\--- task \---
 
-अब आपका प्रोग्राम स्वचालित रूप से यादृच्छिक रंग का चयन करेगा।
+Run the code and you should see random sparkles in action!
 
-5. इसे फिर से चलाएं, और आपको एक यादृच्छिक स्थान के साथ एक और पिक्सेल दिखाई देगा जिसमें एक यादृच्छिक रंग होगा।
+\--- /task \---
 
-6. इसे कुछ और बार चलाएं, और आपको अधिक ग्रिड को यादृच्छिक पिक्सल के साथ भरना चाहिए।
+\--- task \---
+
+Try changing the sleep time to make it even shorter.
+
+\--- /task \---
