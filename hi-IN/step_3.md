@@ -1,53 +1,56 @@
-## Set_pixel का उपयोग करना
+## Using the random module
 
-सबसे पहले, हम कुछ यादृच्छिक संख्याओं को सोचेंगे और `set_pixel | 123_7_1_321 का उपयोग करेंगे | सेंस एचएटी डिस्प्ले पर यादृच्छिक स्थान पर यादृच्छिक रंग रखने के लिए फ़ंक्शन</p>
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
-<ol>
-<li><p>यदि आप रास्पबेरी पी का उपयोग कर रहे हैं, तो अजगर 3 खोलें और एक नई फ़ाइल बनाएं। यदि आप वेब एमुलेटर का उपयोग कर रहे हैं, तो शुरू होने से पहले उदाहरण कोड हटाएं</p></li>
-<li><p>नई फ़ाइल में, सेंस एचएटी मॉड्यूल आयात करके शुरू करें</p>
+\--- task \---
 
-<p>यदि आप वास्तविक सेंस हैट या ट्रिंकैट एमुलेटर का उपयोग कर रहे हैं, तो आयात लाइन है:</p>
-
-<pre><code class="python">sense_hat आयात से SenseHat
-`</pre> 
-
-यदि आप डेस्कटॉप एमुलेटर का प्रयोग कर रहे हैं, तो आयात लाइन है:
+Add another `import` line at the top of your program, below `import SenseHat`:
 
 ```python
-sense_emu से सेंसहैट आयात करें
+from random import randint
 ```
 
-बाकी कोड सभी संस्करणों के लिए समान होगा।</li> 
+\--- /task \---
 
-- इसके बाद, जोड़कर अपने संवेदनात्मक हथियार के लिए एक कनेक्शन बनाएं:
-    
-    ```python
-sense = SenseHat ()
+\--- task \---
+
+Now change your `x =` and `y =` lines to automatically select a random position:
+
+```python
+x = randint(0, 7)
+y = randint(0, 7)
 ```
 
-- अब 0 और 7 के बीच एक यादृच्छिक संख्या के बारे में सोचो और उसे चर में निर्दिष्ट करें 123_6_0_321 | x</code>उदाहरण के लिए:
-    
-    ```python
-x = 4
+\--- /task \---
+
+\--- task \---
+
+Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+
+\--- /task \---
+
+\--- task \---
+
+Now change your colour value lines to:
+
+```python
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
 ```
 
-- 0 और 7 के बीच एक और यादृच्छिक संख्या के बारे में सोचो, फिर उसे इसे निर्दिष्ट करें `y`:
-    
-    ```python
-y = 5
-```
+Now your program will automatically select a random colour.
 
-- 0 और 255 के बीच तीन यादृच्छिक संख्याओं के बारे में सोचो, फिर उन्हें 123456_6_0_321 | r</code>, `जी`और `b`
-    
-    ```python
-आर = 1 9 जी = 180 बी = 230
-```
+\--- /task \---
 
-- अब `set_pixel | 123_7_1_321 का उपयोग करें | प्रदर्शन पर आपके यादृच्छिक स्थान पर अपना यादृच्छिक रंग रखने के लिए फ़ंक्शन:</p>
+\--- task \---
 
-<pre><code class="python">sense.set_pixel (x, y, r, g, b)
-`</pre></li> 
-    
-    - अब दबाकर अपना कोड चलाएं **F5** (या **रन** बटन ट्रिंकेट में) आपको एक एकल पिक्सेल लाइट को देखना चाहिए।
-    
-    - अब कुछ नयी यादृच्छिक संख्या चुनें - उन्हें सब बदल दें - और फिर से प्रोग्राम को चलाएं। प्रदर्शन पर एक दूसरा पिक्सेल दिखाई देना चाहिए!</ol>
+Run it again, and you should see another pixel appear in a random location with a random colour.
+
+\--- /task \---
+
+\--- task \---
+
+Run it a few more times, and you should see more of the grid fill up with random pixels.
+
+\--- /task \---
