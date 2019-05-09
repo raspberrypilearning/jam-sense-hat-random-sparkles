@@ -1,10 +1,61 @@
 ## परिचय
 
-गर्व के साथ अपना संवेदना कराएं चमकें
+Make your Sense HAT shine with pride.
 
-## टिप्पणियाँ
+\--- collapse \---
 
-इस गतिविधि के लिए, आप असली सेंस एचएटी हार्डवेयर, रास्पबेन में डेस्कटॉप एमुलेटर या ट्रिंकेट पर वेब-आधारित एमुलेटर का उपयोग कर सकते हैं।
+* * *
 
-- यदि आप सेंस हैैट का उपयोग कर रहे हैं, तो बूटिंग से पहले इसे अपने रास्पबेरी पीआई में संलग्न करें।
-- यदि आप ट्रिंकेट एमुलेटर का उपयोग कर रहे हैं, तो एक वेब ब्राउजर खोलें और **trinket.io/sense-hat | 123_9_1_321 पर जाएं |</li> </ul>
+## title: What you will need
+
+- Raspberry Pi computer
+- Sense HAT
+    
+    You'll need to install Mu. Open a Terminal window and type the following command:
+    
+    ```bash
+    sudo apt install mu-editor
+    ```
+
+or:
+
+- PC
+
+If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+
+`from sense_hat import SenseHat`
+
+to:
+
+`from sense_emu import SenseHat`.
+
+If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: What you will learn
+
+- Controlling colour LEDs on the Sense HAT
+- RGB colours
+- Loops and iteration
+- Randomness
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Information for Jam organisers
+
+\--- no-print \---
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+
+\--- /no-print \---
+
+\--- /collapse \---
