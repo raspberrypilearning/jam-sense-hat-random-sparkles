@@ -4,14 +4,14 @@ hero_image: images/cover.png
 description: Laat je Sense HAT stralen
 listed: false
 copyedit: false
-version: 4
+version: 3
 last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
-  - 
     title: Het gebruik van set_pixel
   - 
-    title: De module random gebruiken
+    title: De random module gebruiken
+  - 
+    title: Voeg een lus toe
