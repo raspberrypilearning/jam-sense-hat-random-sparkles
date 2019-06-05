@@ -1,6 +1,6 @@
 ## Inleiding
 
-Make your Sense HAT shine with pride.
+Laat je Sense HAT stralen.
 
 \--- collapse \---
 
@@ -17,7 +17,7 @@ Make your Sense HAT shine with pride.
     sudo apt install mu-editor
     ```
 
-or:
+of:
 
 - PC
 
@@ -37,7 +37,7 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Controlling colour LEDs on the Sense HAT
 - RGB colours
