@@ -1,12 +1,12 @@
 ## परिचय
 
-Make your Sense HAT shine with pride.
+गर्व के साथ अपने Sense HAT को चमकाए.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: आपको किन चीजों की आवश्यकता होगी
 
 - Raspberry Pi computer
 - Sense HAT
@@ -37,10 +37,10 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 * * *
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
 - Controlling colour LEDs on the Sense HAT
-- RGB colours
+- RGB रंग
 - Loops and iteration
 - Randomness
 
