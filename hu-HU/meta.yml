@@ -1,7 +1,7 @@
 ---
-title: Sense HAT Véletlenszerű Szikrák
+title: Sense HAT véletlenszerű szikrák
 hero_image: images/cover.png
-description: Tedd büszkén ragyogová a Sence HAT -et
+description: Tedd büszkén ragyogóvá a Sense HAT-et
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: Bevezetés
   - 
-    title: Using set_pixel
+    title: A set_pixel függvény használata
   - 
-    title: Using the random module
+    title: A véletlenszám-generáló modul használata
   - 
-    title: Add a loop
+    title: Adj hozzá egy ciklust
