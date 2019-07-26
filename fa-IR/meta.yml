@@ -10,8 +10,8 @@ steps:
   - 
     title: مقدمه
   - 
-    title: Using set_pixel
+    title: استفاده از set_pixel
   - 
-    title: Using the random module
+    title: استفاده از ماژول تصادفی
   - 
-    title: Add a loop
+    title: یک حلقه اضافه کنید
