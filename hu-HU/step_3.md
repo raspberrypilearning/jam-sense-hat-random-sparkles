@@ -1,10 +1,10 @@
-## Using the random module
+## A véletlenszám-generátor modul használata
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Eddig te magad választottad ki a véletlen számokat, de megkérheted a számítógépet, hogy válassza ki őket helyetted.
 
 \--- task \---
 
-Add another `import` line at the top of your program, below `import SenseHat`:
+Adj hozzá egy új `import` sort a programod tetején, az `import SenseHat` alá:
 
 ```python
 from random import randint
@@ -14,7 +14,7 @@ from random import randint
 
 \--- task \---
 
-Now change your `x =` and `y =` lines to automatically select a random position:
+Most változtasd meg az `x =` és `y =` sorokat, hogy automatikusan válasszanak egy véletlenszerű helyet:
 
 ```python
 x = randint(0, 7)
@@ -25,13 +25,13 @@ y = randint(0, 7)
 
 \--- task \---
 
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+Futtasd a programodat, és egy újabb véletlenszerű pixel fog megjelenni a kijelzőn. A színe ugyanaz lesz, mint amit korábban választottál.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your colour value lines to:
+Most változasd meg a színed értékeit így:
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Most a programod automatikusan egy véletlenszerű színt fog választani.
 
 \--- /task \---
 
 \--- task \---
 
-Run it again, and you should see another pixel appear in a random location with a random colour.
+Futtasd újra, és most egy újabb pixel fog megjelenni egy véletlenszerű helyen véletlenszerű színnel.
 
 \--- /task \---
 
 \--- task \---
 
-Run it a few more times, and you should see more of the grid fill up with random pixels.
+Futtasd még néhányszor, így a rács egyre nagyobb része lesz kitöltve a véletlenszerű pixelekkel.
 
 \--- /task \---
