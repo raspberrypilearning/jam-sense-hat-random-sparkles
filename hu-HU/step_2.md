@@ -1,36 +1,36 @@
-## Using set_pixel
+## A set_pixel függvény használata
 
-First, you'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Először ki fogsz találni néhány véletlen számot, és a `set_pixel` függvény segítségével meg fogsz jeleníteni egy véletlenszerű színt egy véletlenszerű helyen a Sense HAT kijelzőn.
 
 \--- task \---
 
-If you're using a Raspberry Pi, open **Mu** to start. If you're using the web emulator, delete the example code before you begin.
+Ha Raspberry Pi-t használsz, nyisd meg a **Mu**-t a kezdéshez. Ha a webes emulátort használod, a kezdés előtt töröld ki a példakódot.
 
 \--- /task \---
 
 \--- task \---
 
-In the new file, start by importing the Sense HAT module.
+Az új fájlban kezdésként importáld a Sense HAT modult.
 
-If you're using a real Sense HAT or the Trinket emulator, the import line is:
+Ha igazi Sense HAT-et vagy a Trinket emulátort használod, az import sor az alábbi:
 
 ```python
 from sense_hat import SenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+Ha az asztali emulátort használod, az import sor az alábbi:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-The rest of the code will be identical for all versions.
+A kód többi része mindegyik verziónál ugyanaz.
 
 \--- /task \---
 
 \--- task \---
 
-Next, create a connection to your Sense HAT by adding:
+Ezután nyiss meg egy kapcsolatot a Sense HAT-hez az alábbi kóddal:
 
 ```python
 sense = SenseHat()
@@ -40,7 +40,7 @@ sense = SenseHat()
 
 \--- task \---
 
-Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+Most válassz egy véletlen számot 0 és 7 között, és add értékül az `x` változónak, például:
 
 ```python
 x = 4
@@ -50,7 +50,7 @@ x = 4
 
 \--- task \---
 
-Think of another random number between 0 and 7, then assign it to `y`:
+Válassz egy másik véletlen számot 0 és 7 között, és add értékül az `y` változónak:
 
 ```python
 y = 5
@@ -60,7 +60,7 @@ y = 5
 
 \--- task \---
 
-Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+Válassz 3 véletlen számot 0 és 255 között, és add értékül őket az `r`, `g` és `b` változóknak:
 
 ```python
 r = 19
@@ -72,7 +72,7 @@ b = 230
 
 \--- task \---
 
-Now use the `set_pixel` function to place your random colour at your random location on the display:
+Most használd a `set_pixel` függvényt, hogy a véletlenszerű színt a véletlenszerű helyen felvillantsd a kijelzőn:
 
 ```python
 sense.set_pixel(x, y, r, g, b)
@@ -82,12 +82,12 @@ sense.set_pixel(x, y, r, g, b)
 
 \--- task \---
 
-Now run your code by the **Run** button. You should see a single pixel light up.
+Most futtasd a kódodat a **Run** gombbal. Azt kell látnod, hogy felvillan egy pixel.
 
 \--- /task \---
 
 \--- task \---
 
-Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+Most válassz új véletlen számokat - mindegyiket változtasd meg -, majd futtasd újra a programot. Egy második pixel jelenik meg a kijelzőn!
 
 \--- /task \---
