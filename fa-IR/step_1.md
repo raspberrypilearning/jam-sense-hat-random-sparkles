@@ -8,16 +8,16 @@ Make your Sense HAT shine with pride.
 
 ## title: What you will need
 
-- Raspberry Pi computer
+- کامپیوتر Raspberry Pi
 - Sense HAT
     
-    You'll need to install Mu. Open a Terminal window and type the following command:
+    باید Mu را نصب کنید. پنجره‌ی ترمینال را باز کرده و دستور زیر را بنویسید:
     
     ```bash
     sudo apt install mu-editor
     ```
 
-or:
+یا:
 
 - PC
 
