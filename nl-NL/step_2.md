@@ -1,10 +1,10 @@
 ## Het gebruik van set_pixel
 
-First, you'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Eerst ga je wat willekeurige getallen bedenken en de `set_pixel` functie gebruiken om een ​​willekeurige kleur op een willekeurige locatie op de Sense HAT display te laten oplichten.
 
 \--- task \---
 
-If you're using a Raspberry Pi, open **Mu** to start. Als je de webemulator gebruikt, verwijder voordat je begint de voorbeeldcode.
+Als je een Raspberry Pi gebruikt, open **Mu** om te beginnen. Als je de webemulator gebruikt, verwijder voordat je begint de voorbeeldcode.
 
 \--- /task \---
 
@@ -82,7 +82,7 @@ sense.set_pixel (x, y, r, g, b)
 
 \--- task \---
 
-Now run your code by the **Run** button. Je zou één enkele pixel moeten zien oplichten.
+Voer nu je code uit door de **Run** knop te gebruiken. Je zou één enkele pixel moeten zien oplichten.
 
 \--- /task \---
 
