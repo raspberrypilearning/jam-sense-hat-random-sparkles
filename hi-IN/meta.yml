@@ -8,10 +8,10 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: Using set_pixel
+    title: set_pixel का उपयोग करना
   - 
-    title: Using the random module
+    title: random मॉड्यूल का उपयोग करना
   - 
-    title: Add a loop
+    title: एक पाश जोड़ें
