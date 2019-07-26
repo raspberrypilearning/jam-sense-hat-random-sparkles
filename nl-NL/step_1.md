@@ -6,7 +6,7 @@ Laat je Sense HAT stralen.
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 - Raspberry Pi computer
 - Sense HAT
