@@ -1,32 +1,50 @@
-## De random module gebruiken
+## Voeg een lus toe
 
-Tot nu toe heb je je eigen willekeurige nummers gekozen, maar je kunt ze ook door de computer laten kiezen.
+In plaats van je programma zelf te blijven uitvoeren, kan je een lus toevoegen zodat het automatisch blijft lopen.
 
-1. Voeg nog een `import` regel toe bovenaan je programma, onder `import SenseHat`:
-    
-    ```python
-    from random import randint
-    ```
+--- task ---
 
-2. Verander nu je `x =` en `y =` regels om automatisch een willekeurige positie te selecteren:
-    
-    ```python
-    x = randint (0, 7)
-    y = randint (0, 7)
-    ```
+Voeg eerst een `import` toe bovenaan je bestand:
 
-3. Voer je programma opnieuw uit en er zal een andere willekeurige pixel op het scherm oplichten. Het is dezelfde kleur die je eerder hebt gekozen.
+```python
+from time import sleep
+```
 
-4. Verander nu de code waar je de kleurwaarde toekent naar:
-    
-    ```python
-    r = randint (0, 255)
-    g = randint (0, 255)
-    b = randint (0, 255)
-    ```
+Je gebruikt dit om het programma tussen de pixels door te pauzeren.
 
-    Nu selecteert je programma automatisch een willekeurige kleur.
+--- /task ---
 
-5. Voer het opnieuw uit en je zou een andere pixel op een willekeurige locatie met een willekeurige kleur moeten zien verschijnen.
+--- task ---
 
-6. Voer het nog een paar keer uit, en je zou meer van het raster moeten zien vollopen met willekeurige pixels.
+Voeg een `while True:` toe aan je code, zodat de willekeurige regels, `set_pixel` en `slaap` zich allemaal binnen de lus bevinden:
+
+```python
+x = randint(0, 7)
+y = randint(0, 7)
+r = randint(0, 255)
+g = randint(0, 255)
+b = randint(0, 255)
+sense.set_pixel(x, y, r, g, b)
+sleep(0.1)
+```
+
+--- /task ---
+
+--- task ---
+
+Voer de code uit en je zou willekeurige flikkeringen moeten zien!
+
+--- /task ---
+
+--- task ---
+
+Probeer de slaaptijd te veranderen om deze nog korter te maken.
+
+--- /task ---
+
+
+**Door de community geleverde vertaling**
+
+Dit project werd vertaald door **Cor Groot**/**Coen Warries** en gecontroleerd door **Bino Maiheu**/**Robert-Jan Kempenaar**.
+
+Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
