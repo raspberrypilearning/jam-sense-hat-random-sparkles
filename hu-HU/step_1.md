@@ -1,35 +1,35 @@
 ## Bevezetés
 
-Make your Sense HAT shine with pride.
+Tedd büszkén ragyogóvá a Sense HAT-et.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Amire szükséged lesz
 
-- Raspberry Pi computer
+- Raspberry Pi számítógép
 - Sense HAT
     
-    You'll need to install Mu. Open a Terminal window and type the following command:
+    Fel kell telepítened a Mu-t. Nyiss meg egy Terminál ablakot, majd írd be az alábbi parancsot:
     
     ```bash
     sudo apt install mu-editor
     ```
 
-or:
+vagy:
 
 - PC
 
-If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+Ha van Raspberry Pi-od, de nincs Sense HAT-ed, használhatod a Sense HAT emulátort a Raspbianen. Változtasd meg az első sort a kódodban erről:
 
 `from sense_hat import SenseHat`
 
-to:
+erre:
 
 `from sense_emu import SenseHat`.
 
-If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
+Ha nincs Raspberry Pi-od, használhatod az online Trinket Sense HAT emulátort itt: [trinket.io/sense-hat](https://trinket.io/sense-hat). Az import sor ugyanaz.
 
 \--- /collapse \---
 
@@ -37,12 +37,12 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 * * *
 
-## title: What you will learn
+## title: Amit meg fogsz tanulni
 
-- Controlling colour LEDs on the Sense HAT
-- RGB colours
-- Loops and iteration
-- Randomness
+- Színes LED-ek vezérlése a Sense HAT-en
+- RGB-színek
+- Ciklusok és ismétlés
+- Véletlen számok generálása
 
 \--- /collapse \---
 
@@ -50,11 +50,11 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 * * *
 
-## title: Information for Jam organisers
+## title: Információ Jam szervezőknek
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+Ha ki kell nyomtatnod a projektet, elérhető egy [PDF verzió](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
 
 \--- /no-print \---
 
