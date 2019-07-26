@@ -1,22 +1,22 @@
-## Add a loop
+## एक पाश जोड़ें
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+अपने प्रोग्राम को बार-बार चलाने के बजाए, आप एक पाश जोड़ सकते हैं ताकि यह चलता रहेगा।
 
 \--- task \---
 
-First, add an `import` to the top of your file:
+पहले, एक `import` आपकी फ़ाइल के शीर्ष पर जोड़ें:
 
 ```python
 from time import sleep
 ```
 
-You'll use this to pause the program between pixels.
+आप प्रोग्राम को पिक्सेल के बीच में रोकने के लिए इसका उपयोग करेंगे।
 
 \--- /task \---
 
 \--- task \---
 
-Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+एक `while True:` अपने कोड में जोड़ें ताकि यादृच्छिक लाइनें, `set_pixel` और `sleep` सभी पाश के भीतर हों:
 
 ```python
 while True:
@@ -33,12 +33,12 @@ while True:
 
 \--- task \---
 
-Run the code and you should see random sparkles in action!
+कोड को चलाने के पश्च्यात आपको यादृच्छिक निखर उठती दिखाई देनी चाहिए!
 
 \--- /task \---
 
 \--- task \---
 
-Try changing the sleep time to make it even shorter.
+नींद का समय बदलकर कम करने की कोशिश करें।
 
 \--- /task \---
