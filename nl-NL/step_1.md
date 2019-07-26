@@ -11,7 +11,7 @@ Laat je Sense HAT stralen.
 - Raspberry Pi computer
 - Sense HAT
     
-    You'll need to install Mu. Open a Terminal window and type the following command:
+    Je zult Mu moeten installeren. Open een terminalvenster en voer de volgende opdracht in:
     
     ```bash
     sudo apt install mu-editor
@@ -21,15 +21,15 @@ of:
 
 - PC
 
-If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+Als je een Raspberry Pi hebt maar geen Sense HAT, kan je gebruik maken van de Sense HAT emulator in Raspbian. Verander simpelweg de import regel bovenaan je code van:
 
 `from sense_hat import SenseHat`
 
-to:
+naar:
 
 `from sense_emu import SenseHat`.
 
-If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
+Als je geen Raspberry Pi bezit, kan je Trinket Sense HAT emulator online gebruiken op [trinket.io/sense-hat](https://trinket.io/sense-hat). De import regel is hetzelfde.
 
 \--- /collapse \---
 
@@ -39,10 +39,10 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 ## title: Wat ga je leren
 
-- Controlling colour LEDs on the Sense HAT
-- RGB colours
-- Loops and iteration
-- Randomness
+- Beheer de kleuren LEDs van Sense HAT
+- RGB kleuren
+- Lussen en iteraties
+- Willekeurigheid
 
 \--- /collapse \---
 
@@ -50,11 +50,11 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 * * *
 
-## title: Information for Jam organisers
+## title: Informatie voor Jam organisatoren
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+Als je dit project wilt afdrukken, is er een [PDF-versie](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) beschikbaar. Let op de opmerkingen op deze pagina voordat je gaat afdrukken.
 
 \--- /no-print \---
 
