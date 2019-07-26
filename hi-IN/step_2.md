@@ -1,36 +1,36 @@
-## Using set_pixel
+## set_pixel का उपयोग करना
 
 First, you'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
 \--- task \---
 
-If you're using a Raspberry Pi, open **Mu** to start. If you're using the web emulator, delete the example code before you begin.
+If you're using a Raspberry Pi, open **Mu** to start. यदि आप वेब एमुलेटर का उपयोग कर रहे हैं, तो शुरू होने से पहले उदाहरण कोड हटाएं।
 
 \--- /task \---
 
 \--- task \---
 
-In the new file, start by importing the Sense HAT module.
+नई फ़ाइल में, Sense HAT मॉड्यूल आयात करके शुरू करें।
 
-If you're using a real Sense HAT or the Trinket emulator, the import line is:
+यदि आप वास्तविक Sense HAT या Trinket एमुलेटर का उपयोग कर रहे हैं, तो आयात लाइन है:
 
 ```python
 from sense_hat import SenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+यदि आप डेस्कटॉप एमुलेटर का प्रयोग कर रहे हैं, तो आयात लाइन है:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-The rest of the code will be identical for all versions.
+बाकी कोड सभी संस्करणों के लिए समान होगा।
 
 \--- /task \---
 
 \--- task \---
 
-Next, create a connection to your Sense HAT by adding:
+इसके बाद, Sense HAT से एक कनेक्शन बनाएं:
 
 ```python
 sense = SenseHat()
@@ -40,7 +40,7 @@ sense = SenseHat()
 
 \--- task \---
 
-Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+अब 0 और 7 के बीच एक यादृच्छिक संख्या सोचे और उसे परिवर्तनीय `x` के बराबर कर दे, उदाहरण के लिए:
 
 ```python
 x = 4
@@ -50,7 +50,7 @@ x = 4
 
 \--- task \---
 
-Think of another random number between 0 and 7, then assign it to `y`:
+0 और 7 के बीच एक और यादृच्छिक संख्या के बारे सोचे और उसे परिवर्तनीय `y` के बराबर कर दे:
 
 ```python
 y = 5
@@ -60,7 +60,7 @@ y = 5
 
 \--- task \---
 
-Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+0 और 255 के बीच तीन यादृच्छिक संख्याओं के बारे सोचे और उन्हें परिवर्तनीय `r`, `b` और `g` के बराबर कर दे:
 
 ```python
 r = 19
@@ -72,7 +72,7 @@ b = 230
 
 \--- task \---
 
-Now use the `set_pixel` function to place your random colour at your random location on the display:
+अब `set_pixel` फ़ंक्शन का उपयोग आपके यादृच्छिक स्थान पर अपना यादृच्छिक रंग रखने के लिए करें:
 
 ```python
 sense.set_pixel(x, y, r, g, b)
@@ -82,12 +82,12 @@ sense.set_pixel(x, y, r, g, b)
 
 \--- task \---
 
-Now run your code by the **Run** button. You should see a single pixel light up.
+Now run your code by the **Run** button. आपको एक पिक्सेल जलता हुआ दिखेगा।
 
 \--- /task \---
 
 \--- task \---
 
-Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+अब कुछ नयी यादृच्छिक संख्या चुनें - उन्हें बदल दें - और फिर से प्रोग्राम को चलाएं। प्रदर्शन पर एक दूसरा पिक्सेल दिखाई देना चाहिए!
 
 \--- /task \---
