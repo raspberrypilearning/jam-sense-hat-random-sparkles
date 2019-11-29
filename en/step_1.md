@@ -48,14 +48,12 @@ title: What you will learn
 
 --- collapse ---
 
+--- no-print ---
+
 ---
 title: Information for Jam organisers
 ---
 
---- no-print ---
-
 If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
-
---- /no-print ---
-
 --- /collapse ---
+--- /no-print ---
