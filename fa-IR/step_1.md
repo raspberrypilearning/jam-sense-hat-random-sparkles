@@ -46,16 +46,12 @@ If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator onl
 
 \--- /collapse \---
 
-\--- collapse \---
+\--- no-print \---
 
-* * *
+## \--- collapse \---
 
 ## title: Information for Jam organisers
 
-\--- no-print \---
-
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing. \--- /collapse \---
 
 \--- /no-print \---
-
-\--- /collapse \---
