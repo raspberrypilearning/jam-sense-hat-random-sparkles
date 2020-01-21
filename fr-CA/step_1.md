@@ -46,16 +46,12 @@ Si tu n'as pas de Raspberry Pi, tu peux utiliser l'émulateur Sense HAT de Trink
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
-
-## title: Information pour les organisateurs Jam
-
 \--- no-print \---
 
-Si vous avez besoin d'imprimer ce projet, une [version PDF](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) est disponible. S’il vous plaît observer les notes sur cette page avant d’imprimer.
+## \--- collapse \---
+
+## title: Information for Jam organisers
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing. \--- /collapse \---
 
 \--- /no-print \---
-
-\--- /collapse \---
