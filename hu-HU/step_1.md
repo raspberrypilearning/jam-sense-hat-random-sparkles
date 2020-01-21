@@ -46,16 +46,12 @@ Ha nincs Raspberry Pi-od, használhatod az online Trinket Sense HAT emulátort i
 
 \--- /collapse \---
 
-\--- collapse \---
-
-* * *
-
-## title: Információ Jam szervezőknek
-
 \--- no-print \---
 
-Ha ki kell nyomtatnod a projektet, elérhető egy [PDF verzió](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
+## \--- collapse \---
+
+## title: Information for Jam organisers
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing. \--- /collapse \---
 
 \--- /no-print \---
-
-\--- /collapse \---
