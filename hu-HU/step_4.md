@@ -1,22 +1,22 @@
-## Adj hozzá egy ciklust
+## Add a loop
 
-Ahelyett, hogy újra és újra kézzel kelljen elindítanod a programodat, hozzáadhatsz egy ciklust, hogy folyamatosan menjen.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-\--- task \---
+--- task ---
 
-Először adj hozzá egy `import` sort a fájlod tetejére:
+First, add an `import` to the top of your file:
 
 ```python
 from time import sleep
 ```
 
-Ezt fogod használni, hogy a program várakozzon a pixelek között.
+You'll use this to pause the program between pixels.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-Adj hozzá egy `while True:` sort a kódodhoz, hogy a `set_pixel` and `sleep` sorok benne legyenek a ciklusban:
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
 
 ```python
 while True:
@@ -29,16 +29,16 @@ while True:
     sleep(0.1)
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-Futtasd a kódot, és láthatod a véletlenszerű ragyogást!
+Run the code and you should see random sparkles in action!
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-Próbáld megváltoztatni a várakozási időt a sleep függvényben, hogy még rövidebb legyen.
+Try changing the sleep time to make it even shorter.
 
-\--- /task \---
+--- /task ---
