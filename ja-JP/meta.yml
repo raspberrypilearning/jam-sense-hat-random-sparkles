@@ -1,17 +1,17 @@
 ---
 title: Sense HAT Random Sparkles
 hero_image: images/cover.png
-description: あなたのセンスHATをプライドで輝かせる
+description: Make your Sense HAT shine with pride
 listed: false
 copyedit: false
-version: 4
-last_tested: 2017-01-01
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: はじめに
   - 
-    title: 必要なもの
+    title: Using set_pixel
   - 
-    title: set_pixelの使用
+    title: Using the random module
   - 
-    title: 乱数モジュールの使用
+    title: Add a loop
