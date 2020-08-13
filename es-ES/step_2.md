@@ -2,13 +2,13 @@
 
 First, you'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
-\--- task \---
+--- task ---
 
 If you're using a Raspberry Pi, open **Mu** to start. If you're using the web emulator, delete the example code before you begin.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 In the new file, start by importing the Sense HAT module.
 
@@ -26,9 +26,9 @@ from sense_emu import SenseHat
 
 The rest of the code will be identical for all versions.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Next, create a connection to your Sense HAT by adding:
 
@@ -36,9 +36,9 @@ Next, create a connection to your Sense HAT by adding:
 sense = SenseHat()
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
 
@@ -46,9 +46,9 @@ Now think of a random number between 0 and 7 and assign it to the variable `x`, 
 x = 4
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Think of another random number between 0 and 7, then assign it to `y`:
 
@@ -56,9 +56,9 @@ Think of another random number between 0 and 7, then assign it to `y`:
 y = 5
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
 
@@ -68,9 +68,9 @@ g = 180
 b = 230
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Now use the `set_pixel` function to place your random colour at your random location on the display:
 
@@ -78,16 +78,16 @@ Now use the `set_pixel` function to place your random colour at your random loca
 sense.set_pixel(x, y, r, g, b)
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Now run your code by the **Run** button. You should see a single pixel light up.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
 
-\--- /task \---
+--- /task ---
