@@ -1,7 +1,7 @@
 ---
-title: Sense HAT की यादृच्छिक चमक
+title: Sense HAT Random Sparkles
 hero_image: images/cover.png
-description: गर्व के साथ अपने Sense HAT को चमकाए
+description: Make your Sense HAT shine with pride
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: भूमिका
   - 
-    title: set_pixel का उपयोग करना
+    title: Using set_pixel
   - 
-    title: random मॉड्यूल का उपयोग करना
+    title: Using the random module
   - 
-    title: एक पाश जोड़ें
+    title: Add a loop
