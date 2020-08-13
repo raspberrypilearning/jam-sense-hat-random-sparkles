@@ -1,57 +1,58 @@
-## Bevezetés
+## Introduction
 
-Tedd büszkén ragyogóvá a Sense HAT-et.
+Make your Sense HAT shine with pride.
 
-\--- collapse \---
+--- collapse ---
+---
+title: What you will need
+---
 
-* * *
-
-## title: Amire szükséged lesz
-
-- Raspberry Pi számítógép
+- Raspberry Pi computer
 - Sense HAT
-    
-    Fel kell telepítened a Mu-t. Nyiss meg egy Terminál ablakot, majd írd be az alábbi parancsot:
-    
+
+    You'll need to install Mu. Open a Terminal window and type the following command:
+
     ```bash
     sudo apt install mu-editor
     ```
 
-vagy:
+or:
 
 - PC
 
-Ha van Raspberry Pi-od, de nincs Sense HAT-ed, használhatod a Sense HAT emulátort a Raspbianen. Változtasd meg az első sort a kódodban erről:
+If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
 
 `from sense_hat import SenseHat`
 
-erre:
+to:
 
 `from sense_emu import SenseHat`.
 
-Ha nincs Raspberry Pi-od, használhatod az online Trinket Sense HAT emulátort itt: [trinket.io/sense-hat](https://trinket.io/sense-hat). Az import sor ugyanaz.
+If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
 
-\--- /collapse \---
+--- /collapse ---
 
-\--- collapse \---
+--- collapse ---
+---
+title: What you will learn
+---
 
-* * *
+- Controlling colour LEDs on the Sense HAT
+- RGB colours
+- Loops and iteration
+- Randomness
 
-## title: Amit meg fogsz tanulni
+--- /collapse ---
 
-- Színes LED-ek vezérlése a Sense HAT-en
-- RGB-színek
-- Ciklusok és ismétlés
-- Véletlen számok generálása
+--- no-print ---
 
-\--- /collapse \---
+--- collapse ---
+---
+title: Information for Jam organisers
+---
 
-\--- no-print \---
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
 
-## \--- collapse \---
+--- /collapse ---
 
-## title: Information for Jam organisers
-
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing. \--- /collapse \---
-
-\--- /no-print \---
+--- /no-print ---
