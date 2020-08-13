@@ -1,37 +1,37 @@
-## random मॉड्यूल का उपयोग करना
+## Using the random module
 
-अब तक आपने अपना यादृच्छिक संख्याएँ स्वयं चुना है, लेकिन आप कंप्यूटर को उन्हें चुनने दे सकते हैं।
+So far you've picked your own random numbers, but you can let the computer choose them instead.
 
-\--- task \---
+--- task ---
 
-एक और `import` लाइन अपने प्रोग्राम के शीर्ष में जोड़ें, `import SenseHat` के नीचे:
+Add another `import` line at the top of your program, below `import SenseHat`:
 
 ```python
 from random import randint
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-अब अपने `x =` और `y =` लाइनों को बदले ताकि वह स्वयं यादृच्छिक संख्याएँ चुन ले:
+Now change your `x =` and `y =` lines to automatically select a random position:
 
 ```python
 x = randint(0, 7)
 y = randint(0, 7)
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-अपने प्रोग्राम को फिर से चलाएं। आपके डिस्प्ले पर एक और यादृच्छिक पिक्सेल रखा जाना चाहिए। यह वही रंग होगा जिसे आपने पहले चुना था।
+Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-अब अपनी रंग स्थापित करने वाली लाइनों को निम्न में बदलें:
+Now change your colour value lines to:
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-अब आपका प्रोग्राम स्वचालित रूप से यादृच्छिक रंग का चयन करेगा।
+Now your program will automatically select a random colour.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-इसे फिर से चलाएं। आपको एक यादृच्छिक स्थान पर एक और पिक्सेल दिखाई देगा जिसमें एक यादृच्छिक रंग होगा।
+Run it again, and you should see another pixel appear in a random location with a random colour.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-इसे कुछ और बार चलाएं। आपको ग्रिड के अधिक स्थान यादृच्छिक पिक्सलों से भरते हुए दिखेंगे।
+Run it a few more times, and you should see more of the grid fill up with random pixels.
 
-\--- /task \---
+--- /task ---
