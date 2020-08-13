@@ -1,43 +1,44 @@
-## Voeg een lus toe
+## Add a loop
 
-In plaats van je programma zelf te blijven uitvoeren, kan je een lus toevoegen zodat het automatisch blijft lopen.
+Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-\--- task \---
+--- task ---
 
-Voeg eerst een `import` toe bovenaan je bestand:
+First, add an `import` to the top of your file:
 
 ```python
 from time import sleep
 ```
 
-Je gebruikt dit om het programma tussen de pixels door te pauzeren.
+You'll use this to pause the program between pixels.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-Voeg een `while True:` toe aan je code, zodat de willekeurige regels, `set_pixel` en `slaap` zich allemaal binnen de lus bevinden:
+Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
 
 ```python
-x = randint(0, 7)
-y = randint(0, 7)
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
-sense.set_pixel(x, y, r, g, b)
-sleep(0.1)
+while True:
+    x = randint(0, 7)
+    y = randint(0, 7)
+    r = randint(0, 255)
+    g = randint(0, 255)
+    b = randint(0, 255)
+    sense.set_pixel(x, y, r, g, b)
+    sleep(0.1)
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \----
+--- task ---
 
-Voer de code uit en je zou willekeurige flikkeringen moeten zien!
+Run the code and you should see random sparkles in action!
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
-Probeer de slaaptijd te veranderen om deze nog korter te maken.
+Try changing the sleep time to make it even shorter.
 
-\--- /task \---
+--- /task ---
