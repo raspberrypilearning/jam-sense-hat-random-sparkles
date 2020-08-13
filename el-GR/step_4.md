@@ -2,7 +2,7 @@
 
 Rather than have to keep running your program, you can add a loop so that it will keep going.
 
-\--- task \---
+--- task ---
 
 First, add an `import` to the top of your file:
 
@@ -12,9 +12,9 @@ from time import sleep
 
 You'll use this to pause the program between pixels.
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
 
@@ -29,16 +29,16 @@ while True:
     sleep(0.1)
 ```
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Run the code and you should see random sparkles in action!
 
-\--- /task \---
+--- /task ---
 
-\--- task \---
+--- task ---
 
 Try changing the sleep time to make it even shorter.
 
-\--- /task \---
+--- /task ---
