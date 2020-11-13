@@ -1,10 +1,10 @@
-## Using the random module
+## Das random-Modul (Zufallsmodul) verwenden
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Bis jetzt hast du deine eigenen Zufallszahlen gewählt, aber du kannst sie stattdessen vom Computer wählen lassen.
 
 --- task ---
 
-Add another `import` line at the top of your program, below `import SenseHat`:
+Füge eine weitere `import` -Zeile am Anfang deines Programms unter der `import SenseHat`-Zeile hinzu:
 
 ```python
 from random import randint
@@ -14,7 +14,7 @@ from random import randint
 
 --- task ---
 
-Now change your `x =` and `y =` lines to automatically select a random position:
+Ändere nun deine `x =` und `y =` Zeilen, um automatisch eine zufällige Position auszuwählen:
 
 ```python
 x = randint(0, 7)
@@ -25,13 +25,13 @@ y = randint(0, 7)
 
 --- task ---
 
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+Führe dein Programm erneut aus, und du solltest ein anderes beliebiges Pixel sehen, das auf dem Display platziert wird. Es wird die gleiche Farbe haben, die du zuvor gewählt hast.
 
 --- /task ---
 
 --- task ---
 
-Now change your colour value lines to:
+Ändere nun deine Farbwertzeilen in:
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Jetzt wählt dein Programm automatisch eine zufällige Farbe.
 
 --- /task ---
 
 --- task ---
 
-Run it again, and you should see another pixel appear in a random location with a random colour.
+Führe es erneut aus, und du solltest ein Pixel an einem zufälligen Ort mit einer zufälligen Farbe aufleuchten sehen.
 
 --- /task ---
 
 --- task ---
 
-Run it a few more times, and you should see more of the grid fill up with random pixels.
+Führe es noch ein paar Mal aus, und du solltest sehen, dass sich das Display mit zufälligen Pixeln füllt.
 
 --- /task ---
