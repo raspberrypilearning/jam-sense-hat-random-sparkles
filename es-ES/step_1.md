@@ -1,4 +1,4 @@
-## Introduction
+## Introducción
 
 Make your Sense HAT shine with pride.
 
