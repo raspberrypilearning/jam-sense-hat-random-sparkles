@@ -1,22 +1,22 @@
-## Add a loop
+## Füge eine Schleife hinzu
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Anstatt dein Programm immer wieder ausführen zu müssen, kannst du eine Schleife hinzufügen, damit es automatisch weiterläuft.
 
 --- task ---
 
-First, add an `import` to the top of your file:
+Füge eine weitere `import` Zeile am Anfang deines Programms hinzu, unter `import SenseHat`:
 
 ```python
 from time import sleep
 ```
 
-You'll use this to pause the program between pixels.
+Das verwendest du, um das Programm zwischen den Pixeln kurz anzuhalten.
 
 --- /task ---
 
 --- task ---
 
-Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+Füge ein `while True:` zu deinem Code hinzu, so dass die Zeilen mit den Zufallswerten, `set_pixel` und `sleep` alle innerhalb der Schleife sind:
 
 ```python
 while True:
@@ -33,12 +33,12 @@ while True:
 
 --- task ---
 
-Run the code and you should see random sparkles in action!
+Führe den Code aus und du solltest zufälliges Funkeln in Aktion sehen!
 
 --- /task ---
 
 --- task ---
 
-Try changing the sleep time to make it even shorter.
+Versuche, die Pausenzeit zu ändern, um sie noch kürzer zu machen.
 
 --- /task ---
