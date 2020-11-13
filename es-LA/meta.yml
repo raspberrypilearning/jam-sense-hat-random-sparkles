@@ -1,7 +1,7 @@
 ---
-title: Sense HAT Random Sparkles
+title: Destellos aleatorios con Sense HAT
 hero_image: images/cover.png
-description: Make your Sense HAT shine with pride
+description: Haz que tu Sense HAT brille con orgullo
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: Introducción
   - 
-    title: Using set_pixel
+    title: Usando set_pixel
   - 
-    title: Using the random module
+    title: Usando el módulo random
   - 
-    title: Add a loop
+    title: Añade un bucle
