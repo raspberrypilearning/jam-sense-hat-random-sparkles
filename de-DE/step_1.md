@@ -1,46 +1,46 @@
 ## Einleitung
 
-Make your Sense HAT shine with pride.
+Lassen Sie Ihren Sense HAT mit Stolz erstrahlen.
 
 --- collapse ---
 ---
-title: What you will need
+title: Was du brauchen wirst
 ---
 
-- Raspberry Pi computer
+- Raspberry Pi Computer
 - Sense HAT
 
-    You'll need to install Mu. Open a Terminal window and type the following command:
+    Du musst den Editor Mu installieren mit. Öffne ein Terminalfenster und führe den folgenden Befehl aus:
 
     ```bash
     sudo apt install mu-editor
     ```
 
-or:
+oder:
 
 - PC
 
-If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+Wenn du einen Raspberry Pi hast, aber keinen Sense HAT, kannst du den Sense HAT Emulator in Raspbian nutzen. Ändere einfach die Importzeile oben in deinem Code von:
 
 `from sense_hat import SenseHat`
 
-to:
+zu:
 
 `from sense_emu import SenseHat`.
 
-If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
+Wenn du den Trinket-Emulator verwendest, öffne einen Webbrowser und gehe zu **trinket.io/sense-hat** Die Importzeile ist dieselbe.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Was du lernen wirst
 ---
 
-- Controlling colour LEDs on the Sense HAT
-- RGB colours
-- Loops and iteration
-- Randomness
+- Steuerung von Farb-LEDs im Sense-HAT
+- RGB-Farben
+- Schleifen und Iteration
+- Zufälligkeit
 
 --- /collapse ---
 
@@ -48,10 +48,10 @@ title: What you will learn
 
 --- collapse ---
 ---
-title: Information for Jam organisers
+title: Informationen für Jam Organisatoren
 ---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+Wenn du dieses Projekt drucken musst, kannst du diese [PDF-version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) verwenden. Bitte alle Informationen auf dieser Seite berücksichtigen, bevor du diese ausdruckst; nicht dass dir am Ende etwas wichtiges fehlt.
 
 --- /collapse ---
 
