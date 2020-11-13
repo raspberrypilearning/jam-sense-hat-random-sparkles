@@ -1,22 +1,22 @@
-## Add a loop
+## Añadir un bucle
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+En lugar de tener que seguir ejecutando repetidamente el programa, puedes agregar un bucle para que continúe el ciclo.
 
 --- task ---
 
-First, add an `import` to the top of your file:
+Primero, añade un `import` a la parte superior de tu archivo:
 
 ```python
 from time import sleep
 ```
 
-You'll use this to pause the program between pixels.
+Lo usarás para pausar el programa entre píxeles.
 
 --- /task ---
 
 --- task ---
 
-Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+Añade un `while True:` a tu código para que las líneas aleatorias, `set_pixel` y `sleep` estén dentro del bucle:
 
 ```python
 while True:
@@ -33,12 +33,12 @@ while True:
 
 --- task ---
 
-Run the code and you should see random sparkles in action!
+¡Ejecuta el código y deberías ver destellos aleatorios en acción!
 
 --- /task ---
 
 --- task ---
 
-Try changing the sleep time to make it even shorter.
+Intenta cambiar el tiempo de pausa del programa para que sea aún más corto.
 
 --- /task ---
