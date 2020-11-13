@@ -1,7 +1,7 @@
 ---
-title: Sense HAT Random Sparkles
+title: Zufälliges Funkeln mit Sense HAT
 hero_image: images/cover.png
-description: Make your Sense HAT shine with pride
+description: Lassen Sie Ihren Sense HAT mit Stolz erstrahlen
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Using set_pixel
+    title: set_pixel verwenden
   - 
-    title: Using the random module
+    title: Das random-Modul (Zufallsmodul) verwenden
   - 
-    title: Add a loop
+    title: Füge eine Schleife hinzu
