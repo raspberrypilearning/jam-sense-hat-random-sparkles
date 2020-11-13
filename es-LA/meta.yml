@@ -1,0 +1,13 @@
+---
+title: Destellos aleatorios con Sense HAT
+hero_image: images/cover.png
+description: Haz que tu Sense HAT brille con orgullo
+listed: false
+copyedit: false
+version: 4.1
+last_tested: 2018-11-21
+steps:
+  - title: Introducción
+  - title: Usando set_pixel
+  - title: Usando el módulo random
+  - title: Añade un bucle
