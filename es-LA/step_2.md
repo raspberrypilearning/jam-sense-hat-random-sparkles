@@ -26,7 +26,7 @@ from sense_emu import SenseHat
 
 El resto del código será idéntico para todas las versiones.
 
---- /tarea ---
+--- /task ---
 
 --- task ---
 
