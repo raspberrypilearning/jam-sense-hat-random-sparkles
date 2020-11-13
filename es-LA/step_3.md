@@ -1,10 +1,10 @@
-## Using the random module
+## Usando el módulo random
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Hasta ahora has elegido tus propios números aleatorios, pero puedes dejar que el ordenador los escoja.
 
 --- task ---
 
-Add another `import` line at the top of your program, below `import SenseHat`:
+Añade otra línea `de importación` en la parte superior de tu programa, debajo de `import SenseHat`:
 
 ```python
 from random import randint
@@ -14,7 +14,7 @@ from random import randint
 
 --- task ---
 
-Now change your `x =` and `y =` lines to automatically select a random position:
+Ahora cambia tus líneas `x =` e `y =` para que seleccionen automáticamente una posición aleatoria:
 
 ```python
 x = randint(0, 7)
@@ -25,13 +25,13 @@ y = randint(0, 7)
 
 --- task ---
 
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+Ejecuta el programa de nuevo, y deberías ver como otro píxel aleatorio está encendido en la pantalla. Será del mismo color que eligiste anteriormente.
 
 --- /task ---
 
 --- task ---
 
-Now change your colour value lines to:
+Ahora cambia las líneas que determinan el valor del color a:
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Ahora tu programa seleccionará automáticamente un color aleatorio.
 
 --- /task ---
 
 --- task ---
 
-Run it again, and you should see another pixel appear in a random location with a random colour.
+Vuelve a ejecutarlo, y deberías ver otro píxel encendido en otro lugar aleatorio con un color aleatorio.
 
 --- /task ---
 
 --- task ---
 
-Run it a few more times, and you should see more of the grid fill up with random pixels.
+Ejecútalo unas cuantas veces más y deberías ver que más de la cuadrícula se llena con píxeles aleatorios.
 
 --- /task ---
