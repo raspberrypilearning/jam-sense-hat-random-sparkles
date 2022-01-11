@@ -1,3 +1,4 @@
+---
 title: Sense HAT Random Sparkles
 hero_image: images/cover.png
 description: Make your Sense HAT shine with pride
@@ -7,6 +8,8 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: Introduction
+  completion: engaged
 - title: Using set_pixel
 - title: Using the random module
+  completion: internal
 - title: Add a loop

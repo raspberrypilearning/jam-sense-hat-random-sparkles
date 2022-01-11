@@ -15,9 +15,11 @@ hardware: sense-hat
 software: python
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: はじめに
+  completion: engaged
 - title: 必要なもの
 - title: set_pixelの使用
+  completion: internal
 - title: 乱数モジュールの使用
 - title: ループを追加する
