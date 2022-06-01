@@ -7,7 +7,7 @@ copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
-  - title: Introducción
-  - title: Usando set_pixel
-  - title: Usando el módulo random
-  - title: Añade un bucle
+- title: Introducción
+- title: Usando set_pixel
+- title: Usando el módulo random
+- title: Añade un bucle

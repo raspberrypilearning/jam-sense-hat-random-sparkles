@@ -15,7 +15,7 @@ hardware: sense-hat
 software: python
 version: 4
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Einleitung
 - title: Was wirst du brauchen
 - title: Verwenden von set_pixel

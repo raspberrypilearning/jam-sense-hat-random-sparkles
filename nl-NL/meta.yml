@@ -7,7 +7,7 @@ copyedit: false
 version: 3
 last_tested: 2018-11-21
 steps:
-  - title: Inleiding
-  - title: Het gebruik van set_pixel
-  - title: De random module gebruiken
-  - title: Voeg een lus toe
+- title: Inleiding
+- title: Het gebruik van set_pixel
+- title: De random module gebruiken
+- title: Voeg een lus toe
