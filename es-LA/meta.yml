@@ -8,8 +8,6 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: Introducción
-  completion: engaged
 - title: Usando set_pixel
 - title: Usando el módulo random
-  completion: internal
 - title: Añade un bucle

@@ -17,9 +17,7 @@ version: 4
 last_tested: 2017-01-01
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Was wirst du brauchen
 - title: Verwenden von set_pixel
-  completion: internal
 - title: Das Zufallsmodul verwenden
 - title: Eine Schleife hinzufügen

@@ -8,8 +8,6 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: Introduction
-  completion: engaged
 - title: Using set_pixel
 - title: Using the random module
-  completion: internal
 - title: Add a loop

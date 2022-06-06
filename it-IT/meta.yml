@@ -17,9 +17,7 @@ version: 4
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Di cosa avrai bisogno
 - title: Usare set_pixel
-  completion: internal
 - title: Utilizzare il modulo random
 - title: Aggiungi un ciclo

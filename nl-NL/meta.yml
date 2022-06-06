@@ -8,8 +8,6 @@ version: 3
 last_tested: 2018-11-21
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Het gebruik van set_pixel
 - title: De random module gebruiken
-  completion: internal
 - title: Voeg een lus toe
