@@ -1,17 +1,17 @@
 ---
-title: Sense HAT Random Sparkles
+title: 반짝반짝 Sense HAT
 hero_image: images/cover.png
-description: Make your Sense HAT shine with pride
+description: 여러분의 Sense HAT을 자랑스럽게 반짝여보세요
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Using set_pixel
+    title: set_pixel 사용하기
   - 
-    title: Using the random module
+    title: random 모듈 사용하기
   - 
-    title: Add a loop
+    title: 반복문 추가하기
