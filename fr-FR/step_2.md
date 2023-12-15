@@ -1,46 +1,46 @@
-## Using set_pixel
+## Utiliser set_pixel
 
-First, you'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+D'abord, nous allons penser à des nombres aléatoires et utiliser le fonction `set_pixel` pour placer une couleur aléatoire sur un emplacement aléatoire sur l'écran Sense HAT.
 
 --- task ---
 
-If you're using a Raspberry Pi, open **Mu** to start. If you're using the web emulator, delete the example code before you begin.
+Si tu utilises un Raspberry Pi, ouvre **Mu** pour commencer. Si tu utilises l'émulateur Web, supprime l'exemple de code avant de commencer.
 
 --- /task ---
 
 --- task ---
 
-In the new file, start by importing the Sense HAT module.
+Dans le nouveau fichier, commence par importer le module Sense HAT.
 
-If you're using a real Sense HAT or the Trinket emulator, the import line is:
+Si tu utilises un vrai Sense HAT ou l'émulateur Trinket, la ligne d'import est:
 
 ```python
 from sense_hat import SenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+Si tu utilises l'émulateur de bureau, la ligne d'import est:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-The rest of the code will be identical for all versions.
+Le reste du code sera identique pour toutes les versions.
 
 --- /task ---
 
 --- task ---
 
-Next, create a connection to your Sense HAT by adding:
+Ensuite, crée une connexion à votre Sense HAT en ajoutant :
 
 ```python
-sense = SenseHat()
+Sense HAT
 ```
 
 --- /task ---
 
 --- task ---
 
-Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+Pense maintenant à un nombre aléatoire compris entre 0 et 7 et attribue-le à la variable `x`, par exemple :
 
 ```python
 x = 4
@@ -50,7 +50,7 @@ x = 4
 
 --- task ---
 
-Think of another random number between 0 and 7, then assign it to `y`:
+Pense à un autre nombre aléatoire compris entre 0 et 7, puis attribue-le à `y` :
 
 ```python
 y = 5
@@ -60,7 +60,7 @@ y = 5
 
 --- task ---
 
-Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+Pense à trois nombres aléatoires entre 0 et 255, puis assigne-les à `r`, `g`, et `b` :
 
 ```python
 r = 19
@@ -72,7 +72,7 @@ b = 230
 
 --- task ---
 
-Now use the `set_pixel` function to place your random colour at your random location on the display:
+Utilise maintenant la fonction `set_pixel` pour placer ta couleur aléatoire à ton emplacement aléatoire sur l'affichage :
 
 ```python
 sense.set_pixel(x, y, r, g, b)
@@ -82,12 +82,12 @@ sense.set_pixel(x, y, r, g, b)
 
 --- task ---
 
-Now run your code by the **Run** button. You should see a single pixel light up.
+Exécute maintenant ton code par le bouton **Run**. Tu devrais voir qu'un seul pixel s'allume.
 
 --- /task ---
 
 --- task ---
 
-Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+Choisis maintenant de nouveaux nombres aléatoires - change-les tous - et exécute le programme à nouveau. Un deuxième pixel devrait apparaître sur l'affichage !
 
 --- /task ---
