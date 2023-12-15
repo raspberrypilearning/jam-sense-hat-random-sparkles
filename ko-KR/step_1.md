@@ -1,46 +1,46 @@
-## Introduction
+## 소개
 
-Make your Sense HAT shine with pride.
+여러분의 Sense HAT을 자랑스럽게 반짝여보세요.
 
 --- collapse ---
 ---
-title: What you will need
+title: 준비물
 ---
 
-- Raspberry Pi computer
-- Sense HAT
+- Raspberry Pi
+- Sense Hat
 
-    You'll need to install Mu. Open a Terminal window and type the following command:
+    Mu를 설치해야합니다. 터미널 창을 열고 다음 명령어를 입력하세요:
 
     ```bash
     sudo apt install mu-editor
     ```
 
-or:
+또는:
 
 - PC
 
-If you have a Raspberry Pi but no Sense HAT, you can use the Sense HAT emulator in Raspbian. Simply change the import line at the top of your code from:
+Raspberry Pi는 있지만 Sense HAT이 없는 경우 Raspbian에서 Sense HAT 에뮬레이터를 사용할 수 있습니다. 코드 상단의 import 행을 다음과 같이 변경하기만 하면 됩니다:
 
 `from sense_hat import SenseHat`
 
-to:
+을 다음과 같이 변경하세요
 
 `from sense_emu import SenseHat`.
 
-If you don't have a Raspberry Pi, you can use the Trinket Sense HAT emulator online at [trinket.io/sense-hat](https://trinket.io/sense-hat). The import line is the same.
+Raspberry Pi가없는 경우 [trinket.io/sense-hat](https://trinket.io/sense-hat)에서 온라인으로 Trinket Sense HAT 에뮬레이터를 사용할 수 있습니다. import 행은 동일합니다.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 배우게 될 것
 ---
 
-- Controlling colour LEDs on the Sense HAT
-- RGB colours
-- Loops and iteration
-- Randomness
+- Sense HAT의 컬러 LED 제어
+- RGB 색
+- 반복문
+- 랜덤
 
 --- /collapse ---
 
@@ -48,10 +48,10 @@ title: What you will learn
 
 --- collapse ---
 ---
-title: Information for Jam organisers
+title: Jam 관계자를 위한 정보
 ---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf) is available. Please observe any notes on this page before printing.
+이 프로젝트를 인쇄해야 하는 경우 [PDF 버전](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Random-Sparkles.pdf)을 사용할 수 있습니다. 인쇄하기 전에 이 페이지의 참고 사항을 준수하십시오.
 
 --- /collapse ---
 
