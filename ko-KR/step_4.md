@@ -1,22 +1,22 @@
-## Add a loop
+## 반복문 추가하기
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+프로그램을 계속 다시 실행하기보단, 반복문을 추가하여 계속 프로그램이 진행되도록 할 수 있습니다.
 
 --- task ---
 
-First, add an `import` to the top of your file:
+먼저 파일 상단에 `import`을 추가합니다.
 
 ```python
 from time import sleep
 ```
 
-You'll use this to pause the program between pixels.
+이를 사용하여 픽셀 배치 중간에 프로그램을 일시 중지합니다.
 
 --- /task ---
 
 --- task ---
 
-Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+`while True :`를 코드에 추가하여 random, `set_pixel` 및 `sleep` 가 모두 반복문 내에 있도록 합니다.
 
 ```python
 while True:
@@ -33,12 +33,12 @@ while True:
 
 --- task ---
 
-Run the code and you should see random sparkles in action!
+코드를 실행하면 무작위로 반짝이는 것을 볼 수 있습니다!
 
 --- /task ---
 
 --- task ---
 
-Try changing the sleep time to make it even shorter.
+일시 중지 시간을 더 짧게 변경해보십시오.
 
 --- /task ---
