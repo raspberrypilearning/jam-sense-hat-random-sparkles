@@ -1,36 +1,36 @@
-## Using set_pixel
+## Використання set_pixel
 
-First, you'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
+Спочатку, ти загадаєш декілька випадкових чисел і використаєш функцію `set_pixel`, що розмістити випадковий колір у випадковому місці на дисплеї Sense HAT.
 
 --- task ---
 
-If you're using a Raspberry Pi, open **Mu** to start. If you're using the web emulator, delete the example code before you begin.
+Якщо ти використовуєш Raspberry Pi, для початку відкрий **Mu**. Якщо ти використовуєш веб-емулятор, перед початком видали код-зразок.
 
 --- /task ---
 
 --- task ---
 
-In the new file, start by importing the Sense HAT module.
+В новому файлі почни із імпорту модуля Sense HAT.
 
-If you're using a real Sense HAT or the Trinket emulator, the import line is:
+Якщо ти використовуєш справжній Sense HAT або емулятор в Trinket, рядок імпорту такий:
 
 ```python
 from sense_hat import SenseHat
 ```
 
-If you're using the desktop emulator, the import line is:
+Якщо ти використовуєш емулятор на комп’ютері, то рядок імпорту такий:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-The rest of the code will be identical for all versions.
+Решта коду буде однаковою для всіх варіантів.
 
 --- /task ---
 
 --- task ---
 
-Next, create a connection to your Sense HAT by adding:
+Далі під'єднай Sense HAT, додавши цей рядок коду:
 
 ```python
 sense = SenseHat()
@@ -40,7 +40,7 @@ sense = SenseHat()
 
 --- task ---
 
-Now think of a random number between 0 and 7 and assign it to the variable `x`, for example:
+Тепер загадай випадкове число від 0 до 7 і присвой його змінній `x`, наприклад:
 
 ```python
 x = 4
@@ -50,7 +50,7 @@ x = 4
 
 --- task ---
 
-Think of another random number between 0 and 7, then assign it to `y`:
+Загадай інше випадкове число між 0 та 7 і прийсвой його `y`:
 
 ```python
 y = 5
@@ -60,7 +60,7 @@ y = 5
 
 --- task ---
 
-Think of three random numbers between 0 and 255, then assign them to `r`, `g`, and `b`:
+Загадай три випадкових числа між 0 та 255, далі присвой їх `r`, `g`, та `b`:
 
 ```python
 r = 19
@@ -72,7 +72,7 @@ b = 230
 
 --- task ---
 
-Now use the `set_pixel` function to place your random colour at your random location on the display:
+Тепер скористайся функцією `set_pixel` для розміщення пікселя з випадково обранним кольором у випадково обранному місці на дисплеї:
 
 ```python
 sense.set_pixel(x, y, r, g, b)
@@ -82,12 +82,12 @@ sense.set_pixel(x, y, r, g, b)
 
 --- task ---
 
-Now run your code by the **Run** button. You should see a single pixel light up.
+Запусти свій код за допомогою кнопки **Run**. Ти маєш побачити, як загорівся один піксель.
 
 --- /task ---
 
 --- task ---
 
-Now pick some new random numbers - change them all - and run the program again. A second pixel should appear on the display!
+Тепер обери нові випадкові числа, зміни кожне з них, і запусти програму знову. На дисплеї має з’явитися другий піксель!
 
 --- /task ---
