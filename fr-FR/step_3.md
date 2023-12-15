@@ -1,10 +1,10 @@
-## Using the random module
+## Utiliser le module aléatoire
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+D'abord, nous allons penser à des nombres aléatoires et utiliser la fonction `set_pixel` pour placer une couleur aléatoire sur un emplacement aléatoire sur l'écran Sense Hat.
 
 --- task ---
 
-Add another `import` line at the top of your program, below `import SenseHat`:
+from sense_hat import SenseHat
 
 ```python
 from random import randint
@@ -14,7 +14,7 @@ from random import randint
 
 --- task ---
 
-Now change your `x =` and `y =` lines to automatically select a random position:
+Pense maintenant à un nombre aléatoire compris entre 0 et 7 et attribue-le à la variable `x`, par exemple :
 
 ```python
 x = randint(0, 7)
@@ -25,13 +25,13 @@ y = randint(0, 7)
 
 --- task ---
 
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+Choisis maintenant de nouveaux nombres aléatoires - change-les tous - et exécute le programme à nouveau. Un deuxième pixel devrait apparaître sur l'affichage ! Ce sera la même couleur que tu as choisie précédemment.
 
 --- /task ---
 
 --- task ---
 
-Now change your colour value lines to:
+Maintenant, change tes lignes de valeur de couleur à :
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Maintenant, ton programme va automatiquement sélectionner une couleur aléatoire.
 
 --- /task ---
 
 --- task ---
 
-Run it again, and you should see another pixel appear in a random location with a random colour.
+Exécute-le à nouveau, et tu devrais voir un autre pixel apparaître dans un endroit aléatoire avec une couleur aléatoire.
 
 --- /task ---
 
 --- task ---
 
-Run it a few more times, and you should see more of the grid fill up with random pixels.
+Exécute-le encore plusieurs fois, et tu devrais voir une plus grande partie de la grille se remplir de pixels aléatoires.
 
 --- /task ---
