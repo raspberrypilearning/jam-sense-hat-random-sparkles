@@ -1,10 +1,10 @@
-## Using the random module
+## random 모듈 사용하기
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+지금까지 직접 자신의 무작위의 숫자를 선택했지만, 이를 컴퓨터가 대신 선택하도록 할 수 있습니다.
 
 --- task ---
 
-Add another `import` line at the top of your program, below `import SenseHat`:
+프로그램 상단에 있는 `import SenseHat` 아래에 다른 `import` 줄을 추가합니다.
 
 ```python
 from random import randint
@@ -14,7 +14,7 @@ from random import randint
 
 --- task ---
 
-Now change your `x =` and `y =` lines to automatically select a random position:
+이제 `x =` 및 `y =` 행을 변경하여 자동으로 랜덤한 위치를 선택하게 합니다.
 
 ```python
 x = randint(0, 7)
@@ -25,13 +25,13 @@ y = randint(0, 7)
 
 --- task ---
 
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+프로그램을 다시 실행하면 다른 랜덤한 픽셀에 불이 들어오는 것을 볼 수 있습니다. 이전에 선택한 색상과 동일합니다.
 
 --- /task ---
 
 --- task ---
 
-Now change your colour value lines to:
+이제 색상 행을 다음과 같이 변경하십시오.
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-Now your program will automatically select a random colour.
+이제 프로그램이 자동으로 랜덤한 색상을 선택합니다.
 
 --- /task ---
 
 --- task ---
 
-Run it again, and you should see another pixel appear in a random location with a random colour.
+다시 실행하면 임의의 색상으로 임의의 위치에 다른 픽셀이 나타나는 것을 볼 수 있습니다.
 
 --- /task ---
 
 --- task ---
 
-Run it a few more times, and you should see more of the grid fill up with random pixels.
+몇 번 더 실행하면 더 많은 격자가 임의의 픽셀로 채워지는 것을 볼 수 있습니다.
 
 --- /task ---
