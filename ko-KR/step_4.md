@@ -1,44 +1,63 @@
-## 반복문 추가하기
+## Setting pixels at random
 
-프로그램을 계속 다시 실행하기보단, 반복문을 추가하여 계속 프로그램이 진행되도록 할 수 있습니다.
+First, we'll think up some random numbers and use the `set_pixel` function to place a random colour on a random location on the Sense HAT display.
 
---- task ---
++ Open the Thonny editor.
 
-먼저 파일 상단에 `import`을 추가합니다.
++ Create a new file and save it as `sparkles.py`.
+
++ In the new file, start by importing the `SenseHat` module:
+
+    ```python
+    from sense_hat import SenseHat
+    ```
+
++ Next, create a connection to your Sense HAT by adding this line of code:
+
+    ```python
+    sense = SenseHat()
+    ```
+
+
+We will then define x and y, to choose which pixel on the Sense HAT will light.
+
++ Create a variable called `x`, and set it equal to a number of your choice between 0 and 7. This will be the x coordinate of your pixel on the display. [[[generic-python-creating-a-variable]]]
+
++ Create another variable called `y`, and set it equal to another number between 0 and 7. This will be the y coordinate of your pixel on the display.
+
+
++ To choose the colour of your pixel, think of three numbers between 0 and `255`, then assign them to variables called `r`, `g`, and `b`. These variables will represent the colour of your pixel as amounts of red (r), green (g), and blue (b).
+
+
++ Now use the `set_pixel` function to place a pixel with your randomly chosen colour at your randomly chosen location on the display.
+
+**Note:** the collapsible directions below use a different filename than yours, and uses Trinket instead of IDLE.
+
+[[[rpi-sensehat-single-pixel]]]
+
+The `set_pixel` method takes data in the following order: x coordinate, y coordinate, red, green, blue
+
+To define your `set_pixel` method, plug the names of your variables into the question marks in this line of code, in the right order: x coordinate, y coordinate, red, green, blue.
 
 ```python
-from time import sleep
+sense.set_pixel(?, ?, ?, ?, ?)
 ```
 
-이를 사용하여 픽셀 배치 중간에 프로그램을 일시 중지합니다.
+View the hint below if you are stuck.
 
---- /task ---
+--- hints ---
 
---- task ---
+--- hint ---
 
-`while True :`를 코드에 추가하여 random, `set_pixel` 및 `sleep` 가 모두 반복문 내에 있도록 합니다.
+Here is how your finished code should look — you will probably have chosen different numbers:
 
-```python
-while True:
-    x = randint(0, 7)
-    y = randint(0, 7)
-    r = randint(0, 255)
-    g = randint(0, 255)
-    b = randint(0, 255)
-    sense.set_pixel(x, y, r, g, b)
-    sleep(0.1)
-```
+![Random pixel solution](images/random-pixel-solution.png)
 
---- /task ---
+--- /hint ---
 
---- task ---
+--- /hints ---
 
-코드를 실행하면 무작위로 반짝이는 것을 볼 수 있습니다!
 
---- /task ---
++ Run your code by pressing <kbd>F5</kbd>. You should see a single LED light up on the Sense HAT's LED display.
 
---- task ---
-
-일시 중지 시간을 더 짧게 변경해보십시오.
-
---- /task ---
++ Now change all of the numbers in your program and run the program again. A second LED should turn on.
