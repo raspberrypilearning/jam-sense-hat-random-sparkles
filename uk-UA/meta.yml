@@ -1,17 +1,17 @@
 ---
-title: Sense HAT Random Sparkles
+title: Випідкові блискітки Sense HAT
 hero_image: images/cover.png
-description: Make your Sense HAT shine with pride
+description: Зроби, щоб твій Sense HAT сяяв гордістю
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Using set_pixel
+    title: Використання set_pixel
   - 
-    title: Using the random module
+    title: Використання модуля random
   - 
-    title: Add a loop
+    title: Додай цикл
