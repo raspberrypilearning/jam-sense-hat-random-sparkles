@@ -1,56 +1,12 @@
-## Using the random module
+## Connect to your Sense HAT
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
++ If you have a Sense HAT, attach it to your Raspberry Pi.
 
---- task ---
+[[[rpi-sensehat-attach]]]
 
-Add another `import` line at the top of your program, below `import SenseHat`:
++ If you do not have a Sense HAT, you could create the project using the Sense HAT emulator.
 
-```python
-from random import randint
-```
+[[[rpi-sensehat-emulator]]]
 
---- /task ---
 
---- task ---
-
-Now change your `x =` and `y =` lines to automatically select a random position:
-
-```python
-x = randint(0, 7)
-y = randint(0, 7)
-```
-
---- /task ---
-
---- task ---
-
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
-
---- /task ---
-
---- task ---
-
-Now change your colour value lines to:
-
-```python
-r = randint(0, 255)
-g = randint(0, 255)
-b = randint(0, 255)
-```
-
-Now your program will automatically select a random colour.
-
---- /task ---
-
---- task ---
-
-Run it again, and you should see another pixel appear in a random location with a random colour.
-
---- /task ---
-
---- task ---
-
-Run it a few more times, and you should see more of the grid fill up with random pixels.
-
---- /task ---
+**Note:** if you are using a Sense HAT, you will be using Thonny for your code. If you are using the Sense HAT emulator, you will be using Trinket. Depending on which option you are using, there may be some differences in the colour of the text highlighting.
