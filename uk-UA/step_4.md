@@ -1,22 +1,22 @@
-## Add a loop
+## Додай цикл
 
-Rather than have to keep running your program, you can add a loop so that it will keep going.
+Замість того, щоб запускати свою програму знову і знову, ти можеш додати цикл, щоб вона самостійно повторювалася.
 
 --- task ---
 
-First, add an `import` to the top of your file:
+Спочатку додай ще один `import` до початку свого файлу:
 
 ```python
 from time import sleep
 ```
 
-You'll use this to pause the program between pixels.
+Ти будеш його використовувати, щоб призупиняти програму між пікселями.
 
 --- /task ---
 
 --- task ---
 
-Add a `while True:` to your code so that the random lines, `set_pixel` and `sleep` are all within the loop:
+Додай до свого коду `while True:`, щоб всі рядки з `set_pixel` та `sleep` були всередині циклу:
 
 ```python
 while True:
@@ -33,12 +33,12 @@ while True:
 
 --- task ---
 
-Run the code and you should see random sparkles in action!
+Запусти код, і ти маєш побачити випадкові блискітки в дії!
 
 --- /task ---
 
 --- task ---
 
-Try changing the sleep time to make it even shorter.
+Спробуй зробити паузу ще коротшою.
 
 --- /task ---
