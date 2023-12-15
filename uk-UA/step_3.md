@@ -1,10 +1,10 @@
-## Using the random module
+## Використання модуля random
 
-So far you've picked your own random numbers, but you can let the computer choose them instead.
+Поки що ти підбирав(-ла) власні випадкові числа, але замість цього ти можеш дозволити комп'ютеру вибирати їх.
 
 --- task ---
 
-Add another `import` line at the top of your program, below `import SenseHat`:
+Додай ще один рядок `import` у верхній частині програми, під `import SenseHat`:
 
 ```python
 from random import randint
@@ -14,7 +14,7 @@ from random import randint
 
 --- task ---
 
-Now change your `x =` and `y =` lines to automatically select a random position:
+Тепер зміни свої рядки `x =` та `y =`, щоб автоматично вибирати випадкову позицію:
 
 ```python
 x = randint(0, 7)
@@ -25,13 +25,13 @@ y = randint(0, 7)
 
 --- task ---
 
-Run your program again, and you should see another random pixel being placed on the display. It will be the same colour you chose previously.
+Запусти програму ще раз, і ти маєш побачити як на дисплеї з’являється ще один випадковий піксель. Він буде такого ж кольору, який ти вибрав(-ла) перед цим.
 
 --- /task ---
 
 --- task ---
 
-Now change your colour value lines to:
+Тепер зміни рядки зі значеннями для кольорів на:
 
 ```python
 r = randint(0, 255)
@@ -39,18 +39,18 @@ g = randint(0, 255)
 b = randint(0, 255)
 ```
 
-Now your program will automatically select a random colour.
+Тепер твоя програма буде автоматично вибирати випадковий колір.
 
 --- /task ---
 
 --- task ---
 
-Run it again, and you should see another pixel appear in a random location with a random colour.
+Запусти її ще раз, і ти маєш побачити ще один піксель випадкового кольору у випадковому місці.
 
 --- /task ---
 
 --- task ---
 
-Run it a few more times, and you should see more of the grid fill up with random pixels.
+Запусти її ще кілька разів, і ти маєш побачити, що все більша частина сітки заповнюється випадковими пікселями.
 
 --- /task ---
